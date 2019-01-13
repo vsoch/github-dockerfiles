@@ -1,0 +1,1 @@
+FROM t0t0/docker-alpine-elasticsearch:2.3.2

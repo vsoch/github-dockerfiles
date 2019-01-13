@@ -1,0 +1,2 @@
+FROM telegraf:latest
+
