@@ -15,6 +15,21 @@ if not os.path.exists('data'):
 
 # Helper functions
 
+def cat_files(outfile, infiles):
+    empty = True
+    with open(outfile, 'w') as filey:
+        for infile in infiles:
+            if os.stat(infile).st_size > 0:
+                try:
+                    empty = False
+                    with open(infile, 'r') as inf:
+                        content = inf.read()
+                        filey.writelines(content)
+                except UnicodeDecodeError:
+                    pass
+    return empty
+
+
 def write_file(content, output_file, mode='w'):
     with open(output_file, mode) as filey:
         filey.writelines(content)
@@ -86,24 +101,64 @@ for i in range(0, len(items)):
                 if os.stat(dockerfile).st_size > 0:
                     shutil.copyfile(dockerfile, outfile)
 
-            # Save all readmes into one README.md
-            metadata = os.path.join(folder, 'README.md')
-            empty = True
-            with open(metadata, 'w') as filey:
-                for readme in readmes:
-                    if os.stat(readme).st_size > 0:
-                        empty = False
-                        with open(readme, 'r') as readme_file:
-                            content = readme_file.read()
-                        filey.writelines(content)
+            # If the main repository has a main readme, save it
+            readme_mains = glob("%s*" %os.path.join(cloned, 'README'))
+            if len(readme_mains) > 0:
+                metadata = os.path.join(folder, 'README.md')
+                empty = cat_files(metadata, readme_mains)
 
-            # If there isn't any metadata after all
-            if empty is True:
-                print('No metadata for %s/%s' % (username, reponame) )
-                shutil.rmtree(folder)
+                # Don't write to file again
+                readmes = [x for x in readmes if x not in readme_mains]
+
+            # If we only have ONE dockerfile, save one readme
+            if len(dockerfiles) == 1:
+                metadata = os.path.join(folder, 'README.0.md')
+                empty = cat_files(metadata, readmes)
+                if empty is True:
+                    print('No metadata for %s/%s' % (username, reponame) )
+                    shutil.rmtree(folder)
+
+            # Otherwise, match dockerfiles with readmes
+            else:
+                dirnames = [os.path.dirname(x) for x in readmes]
+                for d in range(len(dockerfiles)):
+                    dockerfile = dockerfiles[d]
+                    dirname = os.path.dirname(dockerfile)  
+                  
+                    # All readme.* files in the same folder
+                    matches = [x for x in readmes if dirname in x]
+                    metadata = os.path.join(folder, 'README.%s.md' % d)
+                    if len(matches) > 0:
+                        with open(metadata, 'w') as filey:
+                            for match in matches:
+                                if os.stat(match).st_size > 0:
+                                    try:
+                                        with open(match, 'r') as mfile:
+                                            content = mfile.read()
+                                        filey.writelines(content)
+                                    except:
+                                        pass
+
+                    # No matches, clean up dockerfile
+                    else:
+                        dockerfile = '%s/Dockerfile.%s' % (folder, d)
+                        if os.path.exists(dockerfile):
+                            os.remove(dockerfile)
+
+                # If we get down here and there are no readmes, save
+                # all of them to one
+                if len(glob('%s/README*' %folder)) == 0:
+                    metadata = os.path.join(folder, 'README-cat.md')
+                    empty = cat_files(metadata, readmes)
+                    if empty is True:
+                        shutil.rmtree(os.path.dirname(folder))
+
                 # If we don't have other repos under this username
-                if len(glob('%s/*' % os.path.dirname(folder))) == 0:
-                    shutil.rmtree(os.path.dirname(folder))
+                try:
+                    if len(glob('%s/*' % os.path.dirname(folder))) == 0:
+                        shutil.rmtree(os.path.dirname(folder))
+                except FileNotFoundError:
+                    pass
 
         # Clean up
         shutil.rmtree(os.path.dirname(cloned))
