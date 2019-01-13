@@ -1,0 +1,1 @@
+docker run -p 3001:3001 -v /home/johna/src/GeekyMenu/GeekyMenuAdmin/testapp:/app:rw --name GEEKY_MENU_TEST_APP geekylab/geeky-menu-admin-api
