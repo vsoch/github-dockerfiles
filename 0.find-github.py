@@ -76,7 +76,7 @@ pickle.dump(orgs, open('github/github_orgs.pkl', 'wb'))
 # Next, search for Dockerfiles within organizations
 baseurl = 'https://api.github.com/search/code?q=Dockerfile+filename:Dockerfile+org=%s&per_page=100'
 
-for i in range(642, len(orgs)):
+for i in range(1492, len(orgs)):
     item = orgs[i]
     org = item['login']
     url = baseurl % org
