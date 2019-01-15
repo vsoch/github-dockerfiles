@@ -73,6 +73,6 @@
             "releases_url": "https://api.github.com/repos/bioteam/minio-irods-gateway/releases{/id}",
             "deployments_url": "https://api.github.com/repos/bioteam/minio-irods-gateway/deployments"
         },
-        "score": 36.398773
+        "score": 12.4394655
     }
 ]

@@ -1,310 +1,6 @@
 [
     {
         "name": "Dockerfile",
-        "path": "Dockerfile",
-        "sha": "f686d1b08bea7a1d9b49338521538aa1d0a3dcef",
-        "url": "https://api.github.com/repositories/91240445/contents/Dockerfile?ref=e5abd048c3865b44170cdbcf34b515c8a3d2e53d",
-        "git_url": "https://api.github.com/repositories/91240445/git/blobs/f686d1b08bea7a1d9b49338521538aa1d0a3dcef",
-        "html_url": "https://github.com/iquiw/docker-mroonga-on-mysql/blob/e5abd048c3865b44170cdbcf34b515c8a3d2e53d/Dockerfile",
-        "repository": {
-            "id": 91240445,
-            "node_id": "MDEwOlJlcG9zaXRvcnk5MTI0MDQ0NQ==",
-            "name": "docker-mroonga-on-mysql",
-            "full_name": "iquiw/docker-mroonga-on-mysql",
-            "private": false,
-            "owner": {
-                "login": "iquiw",
-                "id": 238681,
-                "node_id": "MDQ6VXNlcjIzODY4MQ==",
-                "avatar_url": "https://avatars1.githubusercontent.com/u/238681?v=4",
-                "gravatar_id": "",
-                "url": "https://api.github.com/users/iquiw",
-                "html_url": "https://github.com/iquiw",
-                "followers_url": "https://api.github.com/users/iquiw/followers",
-                "following_url": "https://api.github.com/users/iquiw/following{/other_user}",
-                "gists_url": "https://api.github.com/users/iquiw/gists{/gist_id}",
-                "starred_url": "https://api.github.com/users/iquiw/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/iquiw/subscriptions",
-                "organizations_url": "https://api.github.com/users/iquiw/orgs",
-                "repos_url": "https://api.github.com/users/iquiw/repos",
-                "events_url": "https://api.github.com/users/iquiw/events{/privacy}",
-                "received_events_url": "https://api.github.com/users/iquiw/received_events",
-                "type": "User",
-                "site_admin": false
-            },
-            "html_url": "https://github.com/iquiw/docker-mroonga-on-mysql",
-            "description": "Docker image for Mroonga based on Official MySQL image",
-            "fork": false,
-            "url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql",
-            "forks_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/forks",
-            "keys_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/keys{/key_id}",
-            "collaborators_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/collaborators{/collaborator}",
-            "teams_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/teams",
-            "hooks_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/hooks",
-            "issue_events_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/issues/events{/number}",
-            "events_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/events",
-            "assignees_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/assignees{/user}",
-            "branches_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/branches{/branch}",
-            "tags_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/tags",
-            "blobs_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/git/blobs{/sha}",
-            "git_tags_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/git/tags{/sha}",
-            "git_refs_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/git/refs{/sha}",
-            "trees_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/git/trees{/sha}",
-            "statuses_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/statuses/{sha}",
-            "languages_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/languages",
-            "stargazers_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/stargazers",
-            "contributors_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/contributors",
-            "subscribers_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/subscribers",
-            "subscription_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/subscription",
-            "commits_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/commits{/sha}",
-            "git_commits_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/git/commits{/sha}",
-            "comments_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/comments{/number}",
-            "issue_comment_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/issues/comments{/number}",
-            "contents_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/contents/{+path}",
-            "compare_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/compare/{base}...{head}",
-            "merges_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/merges",
-            "archive_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/{archive_format}{/ref}",
-            "downloads_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/downloads",
-            "issues_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/issues{/number}",
-            "pulls_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/pulls{/number}",
-            "milestones_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/milestones{/number}",
-            "notifications_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/notifications{?since,all,participating}",
-            "labels_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/labels{/name}",
-            "releases_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/releases{/id}",
-            "deployments_url": "https://api.github.com/repos/iquiw/docker-mroonga-on-mysql/deployments"
-        },
-        "score": 44.428406
-    },
-    {
-        "name": "Dockerfile",
-        "path": "Dockerfile",
-        "sha": "280fb5873eb4d40c321abf48029a3852238f3285",
-        "url": "https://api.github.com/repositories/79127370/contents/Dockerfile?ref=98dcb2647072def01379aae240694e1af89fa397",
-        "git_url": "https://api.github.com/repositories/79127370/git/blobs/280fb5873eb4d40c321abf48029a3852238f3285",
-        "html_url": "https://github.com/zaubermaerchen/mariadb-mroonga/blob/98dcb2647072def01379aae240694e1af89fa397/Dockerfile",
-        "repository": {
-            "id": 79127370,
-            "node_id": "MDEwOlJlcG9zaXRvcnk3OTEyNzM3MA==",
-            "name": "mariadb-mroonga",
-            "full_name": "zaubermaerchen/mariadb-mroonga",
-            "private": false,
-            "owner": {
-                "login": "zaubermaerchen",
-                "id": 9396256,
-                "node_id": "MDQ6VXNlcjkzOTYyNTY=",
-                "avatar_url": "https://avatars3.githubusercontent.com/u/9396256?v=4",
-                "gravatar_id": "",
-                "url": "https://api.github.com/users/zaubermaerchen",
-                "html_url": "https://github.com/zaubermaerchen",
-                "followers_url": "https://api.github.com/users/zaubermaerchen/followers",
-                "following_url": "https://api.github.com/users/zaubermaerchen/following{/other_user}",
-                "gists_url": "https://api.github.com/users/zaubermaerchen/gists{/gist_id}",
-                "starred_url": "https://api.github.com/users/zaubermaerchen/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/zaubermaerchen/subscriptions",
-                "organizations_url": "https://api.github.com/users/zaubermaerchen/orgs",
-                "repos_url": "https://api.github.com/users/zaubermaerchen/repos",
-                "events_url": "https://api.github.com/users/zaubermaerchen/events{/privacy}",
-                "received_events_url": "https://api.github.com/users/zaubermaerchen/received_events",
-                "type": "User",
-                "site_admin": false
-            },
-            "html_url": "https://github.com/zaubermaerchen/mariadb-mroonga",
-            "description": "Docker Image packaging for MariaDB(Mroonga is enabled)",
-            "fork": false,
-            "url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga",
-            "forks_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/forks",
-            "keys_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/keys{/key_id}",
-            "collaborators_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/collaborators{/collaborator}",
-            "teams_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/teams",
-            "hooks_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/hooks",
-            "issue_events_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/issues/events{/number}",
-            "events_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/events",
-            "assignees_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/assignees{/user}",
-            "branches_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/branches{/branch}",
-            "tags_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/tags",
-            "blobs_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/git/blobs{/sha}",
-            "git_tags_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/git/tags{/sha}",
-            "git_refs_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/git/refs{/sha}",
-            "trees_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/git/trees{/sha}",
-            "statuses_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/statuses/{sha}",
-            "languages_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/languages",
-            "stargazers_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/stargazers",
-            "contributors_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/contributors",
-            "subscribers_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/subscribers",
-            "subscription_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/subscription",
-            "commits_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/commits{/sha}",
-            "git_commits_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/git/commits{/sha}",
-            "comments_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/comments{/number}",
-            "issue_comment_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/issues/comments{/number}",
-            "contents_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/contents/{+path}",
-            "compare_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/compare/{base}...{head}",
-            "merges_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/merges",
-            "archive_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/{archive_format}{/ref}",
-            "downloads_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/downloads",
-            "issues_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/issues{/number}",
-            "pulls_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/pulls{/number}",
-            "milestones_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/milestones{/number}",
-            "notifications_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/notifications{?since,all,participating}",
-            "labels_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/labels{/name}",
-            "releases_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/releases{/id}",
-            "deployments_url": "https://api.github.com/repos/zaubermaerchen/mariadb-mroonga/deployments"
-        },
-        "score": 43.102592
-    },
-    {
-        "name": "Dockerfile",
-        "path": "Dockerfile/mysql5623_mroonga410/Dockerfile",
-        "sha": "632fb6c3b4b8f0d8c313a4ebe868306929c394e5",
-        "url": "https://api.github.com/repositories/44942154/contents/Dockerfile/mysql5623_mroonga410/Dockerfile?ref=f46448a9dee58bf4c04400fc8e3b62d55061c8a9",
-        "git_url": "https://api.github.com/repositories/44942154/git/blobs/632fb6c3b4b8f0d8c313a4ebe868306929c394e5",
-        "html_url": "https://github.com/mroonga/docker/blob/f46448a9dee58bf4c04400fc8e3b62d55061c8a9/Dockerfile/mysql5623_mroonga410/Dockerfile",
-        "repository": {
-            "id": 44942154,
-            "node_id": "MDEwOlJlcG9zaXRvcnk0NDk0MjE1NA==",
-            "name": "docker",
-            "full_name": "mroonga/docker",
-            "private": false,
-            "owner": {
-                "login": "mroonga",
-                "id": 59973,
-                "node_id": "MDEyOk9yZ2FuaXphdGlvbjU5OTcz",
-                "avatar_url": "https://avatars1.githubusercontent.com/u/59973?v=4",
-                "gravatar_id": "",
-                "url": "https://api.github.com/users/mroonga",
-                "html_url": "https://github.com/mroonga",
-                "followers_url": "https://api.github.com/users/mroonga/followers",
-                "following_url": "https://api.github.com/users/mroonga/following{/other_user}",
-                "gists_url": "https://api.github.com/users/mroonga/gists{/gist_id}",
-                "starred_url": "https://api.github.com/users/mroonga/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/mroonga/subscriptions",
-                "organizations_url": "https://api.github.com/users/mroonga/orgs",
-                "repos_url": "https://api.github.com/users/mroonga/repos",
-                "events_url": "https://api.github.com/users/mroonga/events{/privacy}",
-                "received_events_url": "https://api.github.com/users/mroonga/received_events",
-                "type": "Organization",
-                "site_admin": false
-            },
-            "html_url": "https://github.com/mroonga/docker",
-            "description": "Dockerfile for Mroonga",
-            "fork": false,
-            "url": "https://api.github.com/repos/mroonga/docker",
-            "forks_url": "https://api.github.com/repos/mroonga/docker/forks",
-            "keys_url": "https://api.github.com/repos/mroonga/docker/keys{/key_id}",
-            "collaborators_url": "https://api.github.com/repos/mroonga/docker/collaborators{/collaborator}",
-            "teams_url": "https://api.github.com/repos/mroonga/docker/teams",
-            "hooks_url": "https://api.github.com/repos/mroonga/docker/hooks",
-            "issue_events_url": "https://api.github.com/repos/mroonga/docker/issues/events{/number}",
-            "events_url": "https://api.github.com/repos/mroonga/docker/events",
-            "assignees_url": "https://api.github.com/repos/mroonga/docker/assignees{/user}",
-            "branches_url": "https://api.github.com/repos/mroonga/docker/branches{/branch}",
-            "tags_url": "https://api.github.com/repos/mroonga/docker/tags",
-            "blobs_url": "https://api.github.com/repos/mroonga/docker/git/blobs{/sha}",
-            "git_tags_url": "https://api.github.com/repos/mroonga/docker/git/tags{/sha}",
-            "git_refs_url": "https://api.github.com/repos/mroonga/docker/git/refs{/sha}",
-            "trees_url": "https://api.github.com/repos/mroonga/docker/git/trees{/sha}",
-            "statuses_url": "https://api.github.com/repos/mroonga/docker/statuses/{sha}",
-            "languages_url": "https://api.github.com/repos/mroonga/docker/languages",
-            "stargazers_url": "https://api.github.com/repos/mroonga/docker/stargazers",
-            "contributors_url": "https://api.github.com/repos/mroonga/docker/contributors",
-            "subscribers_url": "https://api.github.com/repos/mroonga/docker/subscribers",
-            "subscription_url": "https://api.github.com/repos/mroonga/docker/subscription",
-            "commits_url": "https://api.github.com/repos/mroonga/docker/commits{/sha}",
-            "git_commits_url": "https://api.github.com/repos/mroonga/docker/git/commits{/sha}",
-            "comments_url": "https://api.github.com/repos/mroonga/docker/comments{/number}",
-            "issue_comment_url": "https://api.github.com/repos/mroonga/docker/issues/comments{/number}",
-            "contents_url": "https://api.github.com/repos/mroonga/docker/contents/{+path}",
-            "compare_url": "https://api.github.com/repos/mroonga/docker/compare/{base}...{head}",
-            "merges_url": "https://api.github.com/repos/mroonga/docker/merges",
-            "archive_url": "https://api.github.com/repos/mroonga/docker/{archive_format}{/ref}",
-            "downloads_url": "https://api.github.com/repos/mroonga/docker/downloads",
-            "issues_url": "https://api.github.com/repos/mroonga/docker/issues{/number}",
-            "pulls_url": "https://api.github.com/repos/mroonga/docker/pulls{/number}",
-            "milestones_url": "https://api.github.com/repos/mroonga/docker/milestones{/number}",
-            "notifications_url": "https://api.github.com/repos/mroonga/docker/notifications{?since,all,participating}",
-            "labels_url": "https://api.github.com/repos/mroonga/docker/labels{/name}",
-            "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
-            "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
-        },
-        "score": 40.552746
-    },
-    {
-        "name": "Dockerfile",
-        "path": "Dockerfile",
-        "sha": "403c465f85b6a5f1153fda9bee7847b883a6f7e4",
-        "url": "https://api.github.com/repositories/51634298/contents/Dockerfile?ref=bff6145fe23e127bf0e94bda350b8293fc9240d6",
-        "git_url": "https://api.github.com/repositories/51634298/git/blobs/403c465f85b6a5f1153fda9bee7847b883a6f7e4",
-        "html_url": "https://github.com/hws-nishimaki-masaya/mokumoku_lamp_docker_build/blob/bff6145fe23e127bf0e94bda350b8293fc9240d6/Dockerfile",
-        "repository": {
-            "id": 51634298,
-            "node_id": "MDEwOlJlcG9zaXRvcnk1MTYzNDI5OA==",
-            "name": "mokumoku_lamp_docker_build",
-            "full_name": "hws-nishimaki-masaya/mokumoku_lamp_docker_build",
-            "private": false,
-            "owner": {
-                "login": "hws-nishimaki-masaya",
-                "id": 6832249,
-                "node_id": "MDQ6VXNlcjY4MzIyNDk=",
-                "avatar_url": "https://avatars2.githubusercontent.com/u/6832249?v=4",
-                "gravatar_id": "",
-                "url": "https://api.github.com/users/hws-nishimaki-masaya",
-                "html_url": "https://github.com/hws-nishimaki-masaya",
-                "followers_url": "https://api.github.com/users/hws-nishimaki-masaya/followers",
-                "following_url": "https://api.github.com/users/hws-nishimaki-masaya/following{/other_user}",
-                "gists_url": "https://api.github.com/users/hws-nishimaki-masaya/gists{/gist_id}",
-                "starred_url": "https://api.github.com/users/hws-nishimaki-masaya/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/hws-nishimaki-masaya/subscriptions",
-                "organizations_url": "https://api.github.com/users/hws-nishimaki-masaya/orgs",
-                "repos_url": "https://api.github.com/users/hws-nishimaki-masaya/repos",
-                "events_url": "https://api.github.com/users/hws-nishimaki-masaya/events{/privacy}",
-                "received_events_url": "https://api.github.com/users/hws-nishimaki-masaya/received_events",
-                "type": "User",
-                "site_admin": false
-            },
-            "html_url": "https://github.com/hws-nishimaki-masaya/mokumoku_lamp_docker_build",
-            "description": "Mokumoku\u4f1a\u306e\u30ef\u30fc\u30af\u30b7\u30e7\u30c3\u30d7\u7528\u306eDockerfile",
-            "fork": false,
-            "url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build",
-            "forks_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/forks",
-            "keys_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/keys{/key_id}",
-            "collaborators_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/collaborators{/collaborator}",
-            "teams_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/teams",
-            "hooks_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/hooks",
-            "issue_events_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/issues/events{/number}",
-            "events_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/events",
-            "assignees_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/assignees{/user}",
-            "branches_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/branches{/branch}",
-            "tags_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/tags",
-            "blobs_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/git/blobs{/sha}",
-            "git_tags_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/git/tags{/sha}",
-            "git_refs_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/git/refs{/sha}",
-            "trees_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/git/trees{/sha}",
-            "statuses_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/statuses/{sha}",
-            "languages_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/languages",
-            "stargazers_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/stargazers",
-            "contributors_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/contributors",
-            "subscribers_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/subscribers",
-            "subscription_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/subscription",
-            "commits_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/commits{/sha}",
-            "git_commits_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/git/commits{/sha}",
-            "comments_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/comments{/number}",
-            "issue_comment_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/issues/comments{/number}",
-            "contents_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/contents/{+path}",
-            "compare_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/compare/{base}...{head}",
-            "merges_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/merges",
-            "archive_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/{archive_format}{/ref}",
-            "downloads_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/downloads",
-            "issues_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/issues{/number}",
-            "pulls_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/pulls{/number}",
-            "milestones_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/milestones{/number}",
-            "notifications_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/notifications{?since,all,participating}",
-            "labels_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/labels{/name}",
-            "releases_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/releases{/id}",
-            "deployments_url": "https://api.github.com/repos/hws-nishimaki-masaya/mokumoku_lamp_docker_build/deployments"
-        },
-        "score": 40.240524
-    },
-    {
-        "name": "Dockerfile",
         "path": "Dockerfile/mysql5626_mroonga506/Dockerfile",
         "sha": "3e037176702d60ad3810ae92bb0fab0afba9e01e",
         "url": "https://api.github.com/repositories/44942154/contents/Dockerfile/mysql5626_mroonga506/Dockerfile?ref=f46448a9dee58bf4c04400fc8e3b62d55061c8a9",
@@ -377,7 +73,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -453,7 +149,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -529,7 +225,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -605,7 +301,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -681,7 +377,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -757,7 +453,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -833,7 +529,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -909,7 +605,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -985,7 +681,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -1061,7 +757,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -1137,7 +833,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -1213,7 +909,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -1289,7 +985,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -1365,7 +1061,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -1441,7 +1137,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -1517,7 +1213,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -1593,7 +1289,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -1669,7 +1365,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -1745,7 +1441,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -1821,7 +1517,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -1897,7 +1593,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -1973,7 +1669,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -2049,7 +1745,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -2125,7 +1821,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -2201,7 +1897,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -2277,7 +1973,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -2353,7 +2049,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -2429,7 +2125,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -2505,7 +2201,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -2581,7 +2277,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -2657,7 +2353,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -2733,7 +2429,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -2809,7 +2505,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -2885,7 +2581,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 39.081387
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -2961,7 +2657,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -3037,7 +2733,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -3113,7 +2809,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -3189,7 +2885,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -3265,7 +2961,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -3341,7 +3037,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -3417,7 +3113,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -3493,7 +3189,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -3569,7 +3265,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -3645,7 +3341,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -3721,7 +3417,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -3797,7 +3493,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -3873,7 +3569,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -3949,7 +3645,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -4025,7 +3721,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -4101,7 +3797,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -4177,7 +3873,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -4253,7 +3949,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -4329,7 +4025,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -4405,7 +4101,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -4481,7 +4177,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -4557,7 +4253,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -4633,7 +4329,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -4709,7 +4405,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -4785,7 +4481,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -4861,7 +4557,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -4937,7 +4633,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -5013,7 +4709,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -5089,7 +4785,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -5165,7 +4861,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -5241,7 +4937,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -5317,7 +5013,83 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
+    },
+    {
+        "name": "Dockerfile",
+        "path": "Dockerfile/mysql5623_mroonga410/Dockerfile",
+        "sha": "632fb6c3b4b8f0d8c313a4ebe868306929c394e5",
+        "url": "https://api.github.com/repositories/44942154/contents/Dockerfile/mysql5623_mroonga410/Dockerfile?ref=f46448a9dee58bf4c04400fc8e3b62d55061c8a9",
+        "git_url": "https://api.github.com/repositories/44942154/git/blobs/632fb6c3b4b8f0d8c313a4ebe868306929c394e5",
+        "html_url": "https://github.com/mroonga/docker/blob/f46448a9dee58bf4c04400fc8e3b62d55061c8a9/Dockerfile/mysql5623_mroonga410/Dockerfile",
+        "repository": {
+            "id": 44942154,
+            "node_id": "MDEwOlJlcG9zaXRvcnk0NDk0MjE1NA==",
+            "name": "docker",
+            "full_name": "mroonga/docker",
+            "private": false,
+            "owner": {
+                "login": "mroonga",
+                "id": 59973,
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjU5OTcz",
+                "avatar_url": "https://avatars1.githubusercontent.com/u/59973?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/mroonga",
+                "html_url": "https://github.com/mroonga",
+                "followers_url": "https://api.github.com/users/mroonga/followers",
+                "following_url": "https://api.github.com/users/mroonga/following{/other_user}",
+                "gists_url": "https://api.github.com/users/mroonga/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/mroonga/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/mroonga/subscriptions",
+                "organizations_url": "https://api.github.com/users/mroonga/orgs",
+                "repos_url": "https://api.github.com/users/mroonga/repos",
+                "events_url": "https://api.github.com/users/mroonga/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/mroonga/received_events",
+                "type": "Organization",
+                "site_admin": false
+            },
+            "html_url": "https://github.com/mroonga/docker",
+            "description": "Dockerfile for Mroonga",
+            "fork": false,
+            "url": "https://api.github.com/repos/mroonga/docker",
+            "forks_url": "https://api.github.com/repos/mroonga/docker/forks",
+            "keys_url": "https://api.github.com/repos/mroonga/docker/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/mroonga/docker/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/mroonga/docker/teams",
+            "hooks_url": "https://api.github.com/repos/mroonga/docker/hooks",
+            "issue_events_url": "https://api.github.com/repos/mroonga/docker/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/mroonga/docker/events",
+            "assignees_url": "https://api.github.com/repos/mroonga/docker/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/mroonga/docker/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/mroonga/docker/tags",
+            "blobs_url": "https://api.github.com/repos/mroonga/docker/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/mroonga/docker/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/mroonga/docker/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/mroonga/docker/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/mroonga/docker/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/mroonga/docker/languages",
+            "stargazers_url": "https://api.github.com/repos/mroonga/docker/stargazers",
+            "contributors_url": "https://api.github.com/repos/mroonga/docker/contributors",
+            "subscribers_url": "https://api.github.com/repos/mroonga/docker/subscribers",
+            "subscription_url": "https://api.github.com/repos/mroonga/docker/subscription",
+            "commits_url": "https://api.github.com/repos/mroonga/docker/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/mroonga/docker/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/mroonga/docker/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/mroonga/docker/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/mroonga/docker/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/mroonga/docker/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/mroonga/docker/merges",
+            "archive_url": "https://api.github.com/repos/mroonga/docker/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/mroonga/docker/downloads",
+            "issues_url": "https://api.github.com/repos/mroonga/docker/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/mroonga/docker/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/mroonga/docker/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/mroonga/docker/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/mroonga/docker/labels{/name}",
+            "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
+        },
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -5393,7 +5165,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -5469,7 +5241,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -5545,7 +5317,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -5621,7 +5393,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -5697,7 +5469,7 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
+        "score": 12.573551
     },
     {
         "name": "Dockerfile",
@@ -5773,1146 +5545,6 @@
             "releases_url": "https://api.github.com/repos/mroonga/docker/releases{/id}",
             "deployments_url": "https://api.github.com/repos/mroonga/docker/deployments"
         },
-        "score": 38.350044
-    },
-    {
-        "name": "Dockerfile",
-        "path": "mysql/Dockerfile",
-        "sha": "61e9ec06d9f9c658c0b6e9e0709afb5a92d57066",
-        "url": "https://api.github.com/repositories/48525165/contents/mysql/Dockerfile?ref=2e51ce53378cc1bc4e114889eb3eb4448649c564",
-        "git_url": "https://api.github.com/repositories/48525165/git/blobs/61e9ec06d9f9c658c0b6e9e0709afb5a92d57066",
-        "html_url": "https://github.com/gyagya/Dockerfiles/blob/2e51ce53378cc1bc4e114889eb3eb4448649c564/mysql/Dockerfile",
-        "repository": {
-            "id": 48525165,
-            "node_id": "MDEwOlJlcG9zaXRvcnk0ODUyNTE2NQ==",
-            "name": "Dockerfiles",
-            "full_name": "gyagya/Dockerfiles",
-            "private": false,
-            "owner": {
-                "login": "gyagya",
-                "id": 4971659,
-                "node_id": "MDQ6VXNlcjQ5NzE2NTk=",
-                "avatar_url": "https://avatars0.githubusercontent.com/u/4971659?v=4",
-                "gravatar_id": "",
-                "url": "https://api.github.com/users/gyagya",
-                "html_url": "https://github.com/gyagya",
-                "followers_url": "https://api.github.com/users/gyagya/followers",
-                "following_url": "https://api.github.com/users/gyagya/following{/other_user}",
-                "gists_url": "https://api.github.com/users/gyagya/gists{/gist_id}",
-                "starred_url": "https://api.github.com/users/gyagya/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/gyagya/subscriptions",
-                "organizations_url": "https://api.github.com/users/gyagya/orgs",
-                "repos_url": "https://api.github.com/users/gyagya/repos",
-                "events_url": "https://api.github.com/users/gyagya/events{/privacy}",
-                "received_events_url": "https://api.github.com/users/gyagya/received_events",
-                "type": "User",
-                "site_admin": false
-            },
-            "html_url": "https://github.com/gyagya/Dockerfiles",
-            "description": null,
-            "fork": false,
-            "url": "https://api.github.com/repos/gyagya/Dockerfiles",
-            "forks_url": "https://api.github.com/repos/gyagya/Dockerfiles/forks",
-            "keys_url": "https://api.github.com/repos/gyagya/Dockerfiles/keys{/key_id}",
-            "collaborators_url": "https://api.github.com/repos/gyagya/Dockerfiles/collaborators{/collaborator}",
-            "teams_url": "https://api.github.com/repos/gyagya/Dockerfiles/teams",
-            "hooks_url": "https://api.github.com/repos/gyagya/Dockerfiles/hooks",
-            "issue_events_url": "https://api.github.com/repos/gyagya/Dockerfiles/issues/events{/number}",
-            "events_url": "https://api.github.com/repos/gyagya/Dockerfiles/events",
-            "assignees_url": "https://api.github.com/repos/gyagya/Dockerfiles/assignees{/user}",
-            "branches_url": "https://api.github.com/repos/gyagya/Dockerfiles/branches{/branch}",
-            "tags_url": "https://api.github.com/repos/gyagya/Dockerfiles/tags",
-            "blobs_url": "https://api.github.com/repos/gyagya/Dockerfiles/git/blobs{/sha}",
-            "git_tags_url": "https://api.github.com/repos/gyagya/Dockerfiles/git/tags{/sha}",
-            "git_refs_url": "https://api.github.com/repos/gyagya/Dockerfiles/git/refs{/sha}",
-            "trees_url": "https://api.github.com/repos/gyagya/Dockerfiles/git/trees{/sha}",
-            "statuses_url": "https://api.github.com/repos/gyagya/Dockerfiles/statuses/{sha}",
-            "languages_url": "https://api.github.com/repos/gyagya/Dockerfiles/languages",
-            "stargazers_url": "https://api.github.com/repos/gyagya/Dockerfiles/stargazers",
-            "contributors_url": "https://api.github.com/repos/gyagya/Dockerfiles/contributors",
-            "subscribers_url": "https://api.github.com/repos/gyagya/Dockerfiles/subscribers",
-            "subscription_url": "https://api.github.com/repos/gyagya/Dockerfiles/subscription",
-            "commits_url": "https://api.github.com/repos/gyagya/Dockerfiles/commits{/sha}",
-            "git_commits_url": "https://api.github.com/repos/gyagya/Dockerfiles/git/commits{/sha}",
-            "comments_url": "https://api.github.com/repos/gyagya/Dockerfiles/comments{/number}",
-            "issue_comment_url": "https://api.github.com/repos/gyagya/Dockerfiles/issues/comments{/number}",
-            "contents_url": "https://api.github.com/repos/gyagya/Dockerfiles/contents/{+path}",
-            "compare_url": "https://api.github.com/repos/gyagya/Dockerfiles/compare/{base}...{head}",
-            "merges_url": "https://api.github.com/repos/gyagya/Dockerfiles/merges",
-            "archive_url": "https://api.github.com/repos/gyagya/Dockerfiles/{archive_format}{/ref}",
-            "downloads_url": "https://api.github.com/repos/gyagya/Dockerfiles/downloads",
-            "issues_url": "https://api.github.com/repos/gyagya/Dockerfiles/issues{/number}",
-            "pulls_url": "https://api.github.com/repos/gyagya/Dockerfiles/pulls{/number}",
-            "milestones_url": "https://api.github.com/repos/gyagya/Dockerfiles/milestones{/number}",
-            "notifications_url": "https://api.github.com/repos/gyagya/Dockerfiles/notifications{?since,all,participating}",
-            "labels_url": "https://api.github.com/repos/gyagya/Dockerfiles/labels{/name}",
-            "releases_url": "https://api.github.com/repos/gyagya/Dockerfiles/releases{/id}",
-            "deployments_url": "https://api.github.com/repos/gyagya/Dockerfiles/deployments"
-        },
-        "score": 38.076565
-    },
-    {
-        "name": "Dockerfile",
-        "path": "Dockerfile",
-        "sha": "efec1a28538def95d25908b0adef090c0e79e1f5",
-        "url": "https://api.github.com/repositories/158918430/contents/Dockerfile?ref=1eecc6f6a6ff1ec434d07ff6ee12523370df870d",
-        "git_url": "https://api.github.com/repositories/158918430/git/blobs/efec1a28538def95d25908b0adef090c0e79e1f5",
-        "html_url": "https://github.com/davidecavestro/mariadb-docker-armhf-builder/blob/1eecc6f6a6ff1ec434d07ff6ee12523370df870d/Dockerfile",
-        "repository": {
-            "id": 158918430,
-            "node_id": "MDEwOlJlcG9zaXRvcnkxNTg5MTg0MzA=",
-            "name": "mariadb-docker-armhf-builder",
-            "full_name": "davidecavestro/mariadb-docker-armhf-builder",
-            "private": false,
-            "owner": {
-                "login": "davidecavestro",
-                "id": 447917,
-                "node_id": "MDQ6VXNlcjQ0NzkxNw==",
-                "avatar_url": "https://avatars2.githubusercontent.com/u/447917?v=4",
-                "gravatar_id": "",
-                "url": "https://api.github.com/users/davidecavestro",
-                "html_url": "https://github.com/davidecavestro",
-                "followers_url": "https://api.github.com/users/davidecavestro/followers",
-                "following_url": "https://api.github.com/users/davidecavestro/following{/other_user}",
-                "gists_url": "https://api.github.com/users/davidecavestro/gists{/gist_id}",
-                "starred_url": "https://api.github.com/users/davidecavestro/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/davidecavestro/subscriptions",
-                "organizations_url": "https://api.github.com/users/davidecavestro/orgs",
-                "repos_url": "https://api.github.com/users/davidecavestro/repos",
-                "events_url": "https://api.github.com/users/davidecavestro/events{/privacy}",
-                "received_events_url": "https://api.github.com/users/davidecavestro/received_events",
-                "type": "User",
-                "site_admin": false
-            },
-            "html_url": "https://github.com/davidecavestro/mariadb-docker-armhf-builder",
-            "description": "Build stage for mariadb arm",
-            "fork": false,
-            "url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder",
-            "forks_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/forks",
-            "keys_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/keys{/key_id}",
-            "collaborators_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/collaborators{/collaborator}",
-            "teams_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/teams",
-            "hooks_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/hooks",
-            "issue_events_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/issues/events{/number}",
-            "events_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/events",
-            "assignees_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/assignees{/user}",
-            "branches_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/branches{/branch}",
-            "tags_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/tags",
-            "blobs_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/git/blobs{/sha}",
-            "git_tags_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/git/tags{/sha}",
-            "git_refs_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/git/refs{/sha}",
-            "trees_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/git/trees{/sha}",
-            "statuses_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/statuses/{sha}",
-            "languages_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/languages",
-            "stargazers_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/stargazers",
-            "contributors_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/contributors",
-            "subscribers_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/subscribers",
-            "subscription_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/subscription",
-            "commits_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/commits{/sha}",
-            "git_commits_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/git/commits{/sha}",
-            "comments_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/comments{/number}",
-            "issue_comment_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/issues/comments{/number}",
-            "contents_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/contents/{+path}",
-            "compare_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/compare/{base}...{head}",
-            "merges_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/merges",
-            "archive_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/{archive_format}{/ref}",
-            "downloads_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/downloads",
-            "issues_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/issues{/number}",
-            "pulls_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/pulls{/number}",
-            "milestones_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/milestones{/number}",
-            "notifications_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/notifications{?since,all,participating}",
-            "labels_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/labels{/name}",
-            "releases_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/releases{/id}",
-            "deployments_url": "https://api.github.com/repos/davidecavestro/mariadb-docker-armhf-builder/deployments"
-        },
-        "score": 37.079338
-    },
-    {
-        "name": "Dockerfile",
-        "path": "mroonga/Dockerfile",
-        "sha": "5642a0282d4f0a2b1e897d0fc1eb3968c4bb5b92",
-        "url": "https://api.github.com/repositories/33917418/contents/mroonga/Dockerfile?ref=ad8d3d909529bda3d6d1c47143cb8418bc739bd4",
-        "git_url": "https://api.github.com/repositories/33917418/git/blobs/5642a0282d4f0a2b1e897d0fc1eb3968c4bb5b92",
-        "html_url": "https://github.com/hokuma/dockerfiles/blob/ad8d3d909529bda3d6d1c47143cb8418bc739bd4/mroonga/Dockerfile",
-        "repository": {
-            "id": 33917418,
-            "node_id": "MDEwOlJlcG9zaXRvcnkzMzkxNzQxOA==",
-            "name": "dockerfiles",
-            "full_name": "hokuma/dockerfiles",
-            "private": false,
-            "owner": {
-                "login": "hokuma",
-                "id": 1315362,
-                "node_id": "MDQ6VXNlcjEzMTUzNjI=",
-                "avatar_url": "https://avatars3.githubusercontent.com/u/1315362?v=4",
-                "gravatar_id": "",
-                "url": "https://api.github.com/users/hokuma",
-                "html_url": "https://github.com/hokuma",
-                "followers_url": "https://api.github.com/users/hokuma/followers",
-                "following_url": "https://api.github.com/users/hokuma/following{/other_user}",
-                "gists_url": "https://api.github.com/users/hokuma/gists{/gist_id}",
-                "starred_url": "https://api.github.com/users/hokuma/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/hokuma/subscriptions",
-                "organizations_url": "https://api.github.com/users/hokuma/orgs",
-                "repos_url": "https://api.github.com/users/hokuma/repos",
-                "events_url": "https://api.github.com/users/hokuma/events{/privacy}",
-                "received_events_url": "https://api.github.com/users/hokuma/received_events",
-                "type": "User",
-                "site_admin": false
-            },
-            "html_url": "https://github.com/hokuma/dockerfiles",
-            "description": null,
-            "fork": false,
-            "url": "https://api.github.com/repos/hokuma/dockerfiles",
-            "forks_url": "https://api.github.com/repos/hokuma/dockerfiles/forks",
-            "keys_url": "https://api.github.com/repos/hokuma/dockerfiles/keys{/key_id}",
-            "collaborators_url": "https://api.github.com/repos/hokuma/dockerfiles/collaborators{/collaborator}",
-            "teams_url": "https://api.github.com/repos/hokuma/dockerfiles/teams",
-            "hooks_url": "https://api.github.com/repos/hokuma/dockerfiles/hooks",
-            "issue_events_url": "https://api.github.com/repos/hokuma/dockerfiles/issues/events{/number}",
-            "events_url": "https://api.github.com/repos/hokuma/dockerfiles/events",
-            "assignees_url": "https://api.github.com/repos/hokuma/dockerfiles/assignees{/user}",
-            "branches_url": "https://api.github.com/repos/hokuma/dockerfiles/branches{/branch}",
-            "tags_url": "https://api.github.com/repos/hokuma/dockerfiles/tags",
-            "blobs_url": "https://api.github.com/repos/hokuma/dockerfiles/git/blobs{/sha}",
-            "git_tags_url": "https://api.github.com/repos/hokuma/dockerfiles/git/tags{/sha}",
-            "git_refs_url": "https://api.github.com/repos/hokuma/dockerfiles/git/refs{/sha}",
-            "trees_url": "https://api.github.com/repos/hokuma/dockerfiles/git/trees{/sha}",
-            "statuses_url": "https://api.github.com/repos/hokuma/dockerfiles/statuses/{sha}",
-            "languages_url": "https://api.github.com/repos/hokuma/dockerfiles/languages",
-            "stargazers_url": "https://api.github.com/repos/hokuma/dockerfiles/stargazers",
-            "contributors_url": "https://api.github.com/repos/hokuma/dockerfiles/contributors",
-            "subscribers_url": "https://api.github.com/repos/hokuma/dockerfiles/subscribers",
-            "subscription_url": "https://api.github.com/repos/hokuma/dockerfiles/subscription",
-            "commits_url": "https://api.github.com/repos/hokuma/dockerfiles/commits{/sha}",
-            "git_commits_url": "https://api.github.com/repos/hokuma/dockerfiles/git/commits{/sha}",
-            "comments_url": "https://api.github.com/repos/hokuma/dockerfiles/comments{/number}",
-            "issue_comment_url": "https://api.github.com/repos/hokuma/dockerfiles/issues/comments{/number}",
-            "contents_url": "https://api.github.com/repos/hokuma/dockerfiles/contents/{+path}",
-            "compare_url": "https://api.github.com/repos/hokuma/dockerfiles/compare/{base}...{head}",
-            "merges_url": "https://api.github.com/repos/hokuma/dockerfiles/merges",
-            "archive_url": "https://api.github.com/repos/hokuma/dockerfiles/{archive_format}{/ref}",
-            "downloads_url": "https://api.github.com/repos/hokuma/dockerfiles/downloads",
-            "issues_url": "https://api.github.com/repos/hokuma/dockerfiles/issues{/number}",
-            "pulls_url": "https://api.github.com/repos/hokuma/dockerfiles/pulls{/number}",
-            "milestones_url": "https://api.github.com/repos/hokuma/dockerfiles/milestones{/number}",
-            "notifications_url": "https://api.github.com/repos/hokuma/dockerfiles/notifications{?since,all,participating}",
-            "labels_url": "https://api.github.com/repos/hokuma/dockerfiles/labels{/name}",
-            "releases_url": "https://api.github.com/repos/hokuma/dockerfiles/releases{/id}",
-            "deployments_url": "https://api.github.com/repos/hokuma/dockerfiles/deployments"
-        },
-        "score": 36.54703
-    },
-    {
-        "name": "Dockerfile",
-        "path": "data/c/castalia/python-ansible-experimental/Dockerfile",
-        "sha": "e357b854c41e6770dabe524d5a60e4c490612be9",
-        "url": "https://api.github.com/repositories/91141092/contents/data/c/castalia/python-ansible-experimental/Dockerfile?ref=e8794a14ec86d8c03b3a00d1b9a659147f992e68",
-        "git_url": "https://api.github.com/repositories/91141092/git/blobs/e357b854c41e6770dabe524d5a60e4c490612be9",
-        "html_url": "https://github.com/vsoch/dockerfiles/blob/e8794a14ec86d8c03b3a00d1b9a659147f992e68/data/c/castalia/python-ansible-experimental/Dockerfile",
-        "repository": {
-            "id": 91141092,
-            "node_id": "MDEwOlJlcG9zaXRvcnk5MTE0MTA5Mg==",
-            "name": "dockerfiles",
-            "full_name": "vsoch/dockerfiles",
-            "private": false,
-            "owner": {
-                "login": "vsoch",
-                "id": 814322,
-                "node_id": "MDQ6VXNlcjgxNDMyMg==",
-                "avatar_url": "https://avatars0.githubusercontent.com/u/814322?v=4",
-                "gravatar_id": "",
-                "url": "https://api.github.com/users/vsoch",
-                "html_url": "https://github.com/vsoch",
-                "followers_url": "https://api.github.com/users/vsoch/followers",
-                "following_url": "https://api.github.com/users/vsoch/following{/other_user}",
-                "gists_url": "https://api.github.com/users/vsoch/gists{/gist_id}",
-                "starred_url": "https://api.github.com/users/vsoch/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/vsoch/subscriptions",
-                "organizations_url": "https://api.github.com/users/vsoch/orgs",
-                "repos_url": "https://api.github.com/users/vsoch/repos",
-                "events_url": "https://api.github.com/users/vsoch/events{/privacy}",
-                "received_events_url": "https://api.github.com/users/vsoch/received_events",
-                "type": "User",
-                "site_admin": false
-            },
-            "html_url": "https://github.com/vsoch/dockerfiles",
-            "description": "a set of scientific dockerfiles, a dinosaur dataset",
-            "fork": false,
-            "url": "https://api.github.com/repos/vsoch/dockerfiles",
-            "forks_url": "https://api.github.com/repos/vsoch/dockerfiles/forks",
-            "keys_url": "https://api.github.com/repos/vsoch/dockerfiles/keys{/key_id}",
-            "collaborators_url": "https://api.github.com/repos/vsoch/dockerfiles/collaborators{/collaborator}",
-            "teams_url": "https://api.github.com/repos/vsoch/dockerfiles/teams",
-            "hooks_url": "https://api.github.com/repos/vsoch/dockerfiles/hooks",
-            "issue_events_url": "https://api.github.com/repos/vsoch/dockerfiles/issues/events{/number}",
-            "events_url": "https://api.github.com/repos/vsoch/dockerfiles/events",
-            "assignees_url": "https://api.github.com/repos/vsoch/dockerfiles/assignees{/user}",
-            "branches_url": "https://api.github.com/repos/vsoch/dockerfiles/branches{/branch}",
-            "tags_url": "https://api.github.com/repos/vsoch/dockerfiles/tags",
-            "blobs_url": "https://api.github.com/repos/vsoch/dockerfiles/git/blobs{/sha}",
-            "git_tags_url": "https://api.github.com/repos/vsoch/dockerfiles/git/tags{/sha}",
-            "git_refs_url": "https://api.github.com/repos/vsoch/dockerfiles/git/refs{/sha}",
-            "trees_url": "https://api.github.com/repos/vsoch/dockerfiles/git/trees{/sha}",
-            "statuses_url": "https://api.github.com/repos/vsoch/dockerfiles/statuses/{sha}",
-            "languages_url": "https://api.github.com/repos/vsoch/dockerfiles/languages",
-            "stargazers_url": "https://api.github.com/repos/vsoch/dockerfiles/stargazers",
-            "contributors_url": "https://api.github.com/repos/vsoch/dockerfiles/contributors",
-            "subscribers_url": "https://api.github.com/repos/vsoch/dockerfiles/subscribers",
-            "subscription_url": "https://api.github.com/repos/vsoch/dockerfiles/subscription",
-            "commits_url": "https://api.github.com/repos/vsoch/dockerfiles/commits{/sha}",
-            "git_commits_url": "https://api.github.com/repos/vsoch/dockerfiles/git/commits{/sha}",
-            "comments_url": "https://api.github.com/repos/vsoch/dockerfiles/comments{/number}",
-            "issue_comment_url": "https://api.github.com/repos/vsoch/dockerfiles/issues/comments{/number}",
-            "contents_url": "https://api.github.com/repos/vsoch/dockerfiles/contents/{+path}",
-            "compare_url": "https://api.github.com/repos/vsoch/dockerfiles/compare/{base}...{head}",
-            "merges_url": "https://api.github.com/repos/vsoch/dockerfiles/merges",
-            "archive_url": "https://api.github.com/repos/vsoch/dockerfiles/{archive_format}{/ref}",
-            "downloads_url": "https://api.github.com/repos/vsoch/dockerfiles/downloads",
-            "issues_url": "https://api.github.com/repos/vsoch/dockerfiles/issues{/number}",
-            "pulls_url": "https://api.github.com/repos/vsoch/dockerfiles/pulls{/number}",
-            "milestones_url": "https://api.github.com/repos/vsoch/dockerfiles/milestones{/number}",
-            "notifications_url": "https://api.github.com/repos/vsoch/dockerfiles/notifications{?since,all,participating}",
-            "labels_url": "https://api.github.com/repos/vsoch/dockerfiles/labels{/name}",
-            "releases_url": "https://api.github.com/repos/vsoch/dockerfiles/releases{/id}",
-            "deployments_url": "https://api.github.com/repos/vsoch/dockerfiles/deployments"
-        },
-        "score": 36.521755
-    },
-    {
-        "name": "Dockerfile",
-        "path": "Dockerfile/mysql5717_mroonga700/Dockerfile",
-        "sha": "20c1972ad3678b0b9a0a2968b92f5ed1eaf1cf46",
-        "url": "https://api.github.com/repositories/82500377/contents/Dockerfile/mysql5717_mroonga700/Dockerfile?ref=b258bd4c7bb7ba2cc693996da9d2be6089d66c83",
-        "git_url": "https://api.github.com/repositories/82500377/git/blobs/20c1972ad3678b0b9a0a2968b92f5ed1eaf1cf46",
-        "html_url": "https://github.com/shibukk/mroonga/blob/b258bd4c7bb7ba2cc693996da9d2be6089d66c83/Dockerfile/mysql5717_mroonga700/Dockerfile",
-        "repository": {
-            "id": 82500377,
-            "node_id": "MDEwOlJlcG9zaXRvcnk4MjUwMDM3Nw==",
-            "name": "mroonga",
-            "full_name": "shibukk/mroonga",
-            "private": false,
-            "owner": {
-                "login": "shibukk",
-                "id": 6420854,
-                "node_id": "MDQ6VXNlcjY0MjA4NTQ=",
-                "avatar_url": "https://avatars0.githubusercontent.com/u/6420854?v=4",
-                "gravatar_id": "",
-                "url": "https://api.github.com/users/shibukk",
-                "html_url": "https://github.com/shibukk",
-                "followers_url": "https://api.github.com/users/shibukk/followers",
-                "following_url": "https://api.github.com/users/shibukk/following{/other_user}",
-                "gists_url": "https://api.github.com/users/shibukk/gists{/gist_id}",
-                "starred_url": "https://api.github.com/users/shibukk/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/shibukk/subscriptions",
-                "organizations_url": "https://api.github.com/users/shibukk/orgs",
-                "repos_url": "https://api.github.com/users/shibukk/repos",
-                "events_url": "https://api.github.com/users/shibukk/events{/privacy}",
-                "received_events_url": "https://api.github.com/users/shibukk/received_events",
-                "type": "User",
-                "site_admin": false
-            },
-            "html_url": "https://github.com/shibukk/mroonga",
-            "description": "Mroonga for wercker CI",
-            "fork": false,
-            "url": "https://api.github.com/repos/shibukk/mroonga",
-            "forks_url": "https://api.github.com/repos/shibukk/mroonga/forks",
-            "keys_url": "https://api.github.com/repos/shibukk/mroonga/keys{/key_id}",
-            "collaborators_url": "https://api.github.com/repos/shibukk/mroonga/collaborators{/collaborator}",
-            "teams_url": "https://api.github.com/repos/shibukk/mroonga/teams",
-            "hooks_url": "https://api.github.com/repos/shibukk/mroonga/hooks",
-            "issue_events_url": "https://api.github.com/repos/shibukk/mroonga/issues/events{/number}",
-            "events_url": "https://api.github.com/repos/shibukk/mroonga/events",
-            "assignees_url": "https://api.github.com/repos/shibukk/mroonga/assignees{/user}",
-            "branches_url": "https://api.github.com/repos/shibukk/mroonga/branches{/branch}",
-            "tags_url": "https://api.github.com/repos/shibukk/mroonga/tags",
-            "blobs_url": "https://api.github.com/repos/shibukk/mroonga/git/blobs{/sha}",
-            "git_tags_url": "https://api.github.com/repos/shibukk/mroonga/git/tags{/sha}",
-            "git_refs_url": "https://api.github.com/repos/shibukk/mroonga/git/refs{/sha}",
-            "trees_url": "https://api.github.com/repos/shibukk/mroonga/git/trees{/sha}",
-            "statuses_url": "https://api.github.com/repos/shibukk/mroonga/statuses/{sha}",
-            "languages_url": "https://api.github.com/repos/shibukk/mroonga/languages",
-            "stargazers_url": "https://api.github.com/repos/shibukk/mroonga/stargazers",
-            "contributors_url": "https://api.github.com/repos/shibukk/mroonga/contributors",
-            "subscribers_url": "https://api.github.com/repos/shibukk/mroonga/subscribers",
-            "subscription_url": "https://api.github.com/repos/shibukk/mroonga/subscription",
-            "commits_url": "https://api.github.com/repos/shibukk/mroonga/commits{/sha}",
-            "git_commits_url": "https://api.github.com/repos/shibukk/mroonga/git/commits{/sha}",
-            "comments_url": "https://api.github.com/repos/shibukk/mroonga/comments{/number}",
-            "issue_comment_url": "https://api.github.com/repos/shibukk/mroonga/issues/comments{/number}",
-            "contents_url": "https://api.github.com/repos/shibukk/mroonga/contents/{+path}",
-            "compare_url": "https://api.github.com/repos/shibukk/mroonga/compare/{base}...{head}",
-            "merges_url": "https://api.github.com/repos/shibukk/mroonga/merges",
-            "archive_url": "https://api.github.com/repos/shibukk/mroonga/{archive_format}{/ref}",
-            "downloads_url": "https://api.github.com/repos/shibukk/mroonga/downloads",
-            "issues_url": "https://api.github.com/repos/shibukk/mroonga/issues{/number}",
-            "pulls_url": "https://api.github.com/repos/shibukk/mroonga/pulls{/number}",
-            "milestones_url": "https://api.github.com/repos/shibukk/mroonga/milestones{/number}",
-            "notifications_url": "https://api.github.com/repos/shibukk/mroonga/notifications{?since,all,participating}",
-            "labels_url": "https://api.github.com/repos/shibukk/mroonga/labels{/name}",
-            "releases_url": "https://api.github.com/repos/shibukk/mroonga/releases{/id}",
-            "deployments_url": "https://api.github.com/repos/shibukk/mroonga/deployments"
-        },
-        "score": 35.740105
-    },
-    {
-        "name": "Dockerfile",
-        "path": "Dockerfile",
-        "sha": "0ad23f2ede9feb11f67d16f11a78d8691644b516",
-        "url": "https://api.github.com/repositories/27325383/contents/Dockerfile?ref=e8bddb62cc3ab65ae0dc6adc4fbd52647c338d23",
-        "git_url": "https://api.github.com/repositories/27325383/git/blobs/0ad23f2ede9feb11f67d16f11a78d8691644b516",
-        "html_url": "https://github.com/sh4/docker-mariadb-mroonga/blob/e8bddb62cc3ab65ae0dc6adc4fbd52647c338d23/Dockerfile",
-        "repository": {
-            "id": 27325383,
-            "node_id": "MDEwOlJlcG9zaXRvcnkyNzMyNTM4Mw==",
-            "name": "docker-mariadb-mroonga",
-            "full_name": "sh4/docker-mariadb-mroonga",
-            "private": false,
-            "owner": {
-                "login": "sh4",
-                "id": 248193,
-                "node_id": "MDQ6VXNlcjI0ODE5Mw==",
-                "avatar_url": "https://avatars3.githubusercontent.com/u/248193?v=4",
-                "gravatar_id": "",
-                "url": "https://api.github.com/users/sh4",
-                "html_url": "https://github.com/sh4",
-                "followers_url": "https://api.github.com/users/sh4/followers",
-                "following_url": "https://api.github.com/users/sh4/following{/other_user}",
-                "gists_url": "https://api.github.com/users/sh4/gists{/gist_id}",
-                "starred_url": "https://api.github.com/users/sh4/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/sh4/subscriptions",
-                "organizations_url": "https://api.github.com/users/sh4/orgs",
-                "repos_url": "https://api.github.com/users/sh4/repos",
-                "events_url": "https://api.github.com/users/sh4/events{/privacy}",
-                "received_events_url": "https://api.github.com/users/sh4/received_events",
-                "type": "User",
-                "site_admin": false
-            },
-            "html_url": "https://github.com/sh4/docker-mariadb-mroonga",
-            "description": "MariaDB 10.0.15 embedded mroonga custom build Dockerfile",
-            "fork": false,
-            "url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga",
-            "forks_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/forks",
-            "keys_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/keys{/key_id}",
-            "collaborators_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/collaborators{/collaborator}",
-            "teams_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/teams",
-            "hooks_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/hooks",
-            "issue_events_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/issues/events{/number}",
-            "events_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/events",
-            "assignees_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/assignees{/user}",
-            "branches_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/branches{/branch}",
-            "tags_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/tags",
-            "blobs_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/git/blobs{/sha}",
-            "git_tags_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/git/tags{/sha}",
-            "git_refs_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/git/refs{/sha}",
-            "trees_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/git/trees{/sha}",
-            "statuses_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/statuses/{sha}",
-            "languages_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/languages",
-            "stargazers_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/stargazers",
-            "contributors_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/contributors",
-            "subscribers_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/subscribers",
-            "subscription_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/subscription",
-            "commits_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/commits{/sha}",
-            "git_commits_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/git/commits{/sha}",
-            "comments_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/comments{/number}",
-            "issue_comment_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/issues/comments{/number}",
-            "contents_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/contents/{+path}",
-            "compare_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/compare/{base}...{head}",
-            "merges_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/merges",
-            "archive_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/{archive_format}{/ref}",
-            "downloads_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/downloads",
-            "issues_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/issues{/number}",
-            "pulls_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/pulls{/number}",
-            "milestones_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/milestones{/number}",
-            "notifications_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/notifications{?since,all,participating}",
-            "labels_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/labels{/name}",
-            "releases_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/releases{/id}",
-            "deployments_url": "https://api.github.com/repos/sh4/docker-mariadb-mroonga/deployments"
-        },
-        "score": 35.412045
-    },
-    {
-        "name": "Dockerfile.in",
-        "path": "Dockerfile.in",
-        "sha": "196b4a32f23e1c8c260bcb66d9d26b5007f19e1c",
-        "url": "https://api.github.com/repositories/23197886/contents/Dockerfile.in?ref=9591cf686c043b0797edf63d8a2e1d45364e926c",
-        "git_url": "https://api.github.com/repositories/23197886/git/blobs/196b4a32f23e1c8c260bcb66d9d26b5007f19e1c",
-        "html_url": "https://github.com/sugi/docker-mroonga-debian/blob/9591cf686c043b0797edf63d8a2e1d45364e926c/Dockerfile.in",
-        "repository": {
-            "id": 23197886,
-            "node_id": "MDEwOlJlcG9zaXRvcnkyMzE5Nzg4Ng==",
-            "name": "docker-mroonga-debian",
-            "full_name": "sugi/docker-mroonga-debian",
-            "private": false,
-            "owner": {
-                "login": "sugi",
-                "id": 11642,
-                "node_id": "MDQ6VXNlcjExNjQy",
-                "avatar_url": "https://avatars3.githubusercontent.com/u/11642?v=4",
-                "gravatar_id": "",
-                "url": "https://api.github.com/users/sugi",
-                "html_url": "https://github.com/sugi",
-                "followers_url": "https://api.github.com/users/sugi/followers",
-                "following_url": "https://api.github.com/users/sugi/following{/other_user}",
-                "gists_url": "https://api.github.com/users/sugi/gists{/gist_id}",
-                "starred_url": "https://api.github.com/users/sugi/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/sugi/subscriptions",
-                "organizations_url": "https://api.github.com/users/sugi/orgs",
-                "repos_url": "https://api.github.com/users/sugi/repos",
-                "events_url": "https://api.github.com/users/sugi/events{/privacy}",
-                "received_events_url": "https://api.github.com/users/sugi/received_events",
-                "type": "User",
-                "site_admin": false
-            },
-            "html_url": "https://github.com/sugi/docker-mroonga-debian",
-            "description": null,
-            "fork": false,
-            "url": "https://api.github.com/repos/sugi/docker-mroonga-debian",
-            "forks_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/forks",
-            "keys_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/keys{/key_id}",
-            "collaborators_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/collaborators{/collaborator}",
-            "teams_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/teams",
-            "hooks_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/hooks",
-            "issue_events_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/issues/events{/number}",
-            "events_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/events",
-            "assignees_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/assignees{/user}",
-            "branches_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/branches{/branch}",
-            "tags_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/tags",
-            "blobs_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/git/blobs{/sha}",
-            "git_tags_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/git/tags{/sha}",
-            "git_refs_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/git/refs{/sha}",
-            "trees_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/git/trees{/sha}",
-            "statuses_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/statuses/{sha}",
-            "languages_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/languages",
-            "stargazers_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/stargazers",
-            "contributors_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/contributors",
-            "subscribers_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/subscribers",
-            "subscription_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/subscription",
-            "commits_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/commits{/sha}",
-            "git_commits_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/git/commits{/sha}",
-            "comments_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/comments{/number}",
-            "issue_comment_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/issues/comments{/number}",
-            "contents_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/contents/{+path}",
-            "compare_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/compare/{base}...{head}",
-            "merges_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/merges",
-            "archive_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/{archive_format}{/ref}",
-            "downloads_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/downloads",
-            "issues_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/issues{/number}",
-            "pulls_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/pulls{/number}",
-            "milestones_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/milestones{/number}",
-            "notifications_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/notifications{?since,all,participating}",
-            "labels_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/labels{/name}",
-            "releases_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/releases{/id}",
-            "deployments_url": "https://api.github.com/repos/sugi/docker-mroonga-debian/deployments"
-        },
-        "score": 35.000633
-    },
-    {
-        "name": "Dockerfile",
-        "path": "docker/Dockerfile",
-        "sha": "a27eb3f866b218f6a8a88631b71d35337ffc57c6",
-        "url": "https://api.github.com/repositories/52433516/contents/docker/Dockerfile?ref=94381b378a68cb93b238db07e3642be1b7d58f7b",
-        "git_url": "https://api.github.com/repositories/52433516/git/blobs/a27eb3f866b218f6a8a88631b71d35337ffc57c6",
-        "html_url": "https://github.com/KitaitiMakoto/grnbook-ja/blob/94381b378a68cb93b238db07e3642be1b7d58f7b/docker/Dockerfile",
-        "repository": {
-            "id": 52433516,
-            "node_id": "MDEwOlJlcG9zaXRvcnk1MjQzMzUxNg==",
-            "name": "grnbook-ja",
-            "full_name": "KitaitiMakoto/grnbook-ja",
-            "private": false,
-            "owner": {
-                "login": "KitaitiMakoto",
-                "id": 386512,
-                "node_id": "MDQ6VXNlcjM4NjUxMg==",
-                "avatar_url": "https://avatars1.githubusercontent.com/u/386512?v=4",
-                "gravatar_id": "",
-                "url": "https://api.github.com/users/KitaitiMakoto",
-                "html_url": "https://github.com/KitaitiMakoto",
-                "followers_url": "https://api.github.com/users/KitaitiMakoto/followers",
-                "following_url": "https://api.github.com/users/KitaitiMakoto/following{/other_user}",
-                "gists_url": "https://api.github.com/users/KitaitiMakoto/gists{/gist_id}",
-                "starred_url": "https://api.github.com/users/KitaitiMakoto/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/KitaitiMakoto/subscriptions",
-                "organizations_url": "https://api.github.com/users/KitaitiMakoto/orgs",
-                "repos_url": "https://api.github.com/users/KitaitiMakoto/repos",
-                "events_url": "https://api.github.com/users/KitaitiMakoto/events{/privacy}",
-                "received_events_url": "https://api.github.com/users/KitaitiMakoto/received_events",
-                "type": "User",
-                "site_admin": false
-            },
-            "html_url": "https://github.com/KitaitiMakoto/grnbook-ja",
-            "description": null,
-            "fork": false,
-            "url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja",
-            "forks_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/forks",
-            "keys_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/keys{/key_id}",
-            "collaborators_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/collaborators{/collaborator}",
-            "teams_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/teams",
-            "hooks_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/hooks",
-            "issue_events_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/issues/events{/number}",
-            "events_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/events",
-            "assignees_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/assignees{/user}",
-            "branches_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/branches{/branch}",
-            "tags_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/tags",
-            "blobs_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/git/blobs{/sha}",
-            "git_tags_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/git/tags{/sha}",
-            "git_refs_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/git/refs{/sha}",
-            "trees_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/git/trees{/sha}",
-            "statuses_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/statuses/{sha}",
-            "languages_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/languages",
-            "stargazers_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/stargazers",
-            "contributors_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/contributors",
-            "subscribers_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/subscribers",
-            "subscription_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/subscription",
-            "commits_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/commits{/sha}",
-            "git_commits_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/git/commits{/sha}",
-            "comments_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/comments{/number}",
-            "issue_comment_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/issues/comments{/number}",
-            "contents_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/contents/{+path}",
-            "compare_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/compare/{base}...{head}",
-            "merges_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/merges",
-            "archive_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/{archive_format}{/ref}",
-            "downloads_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/downloads",
-            "issues_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/issues{/number}",
-            "pulls_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/pulls{/number}",
-            "milestones_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/milestones{/number}",
-            "notifications_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/notifications{?since,all,participating}",
-            "labels_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/labels{/name}",
-            "releases_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/releases{/id}",
-            "deployments_url": "https://api.github.com/repos/KitaitiMakoto/grnbook-ja/deployments"
-        },
-        "score": 34.361362
-    },
-    {
-        "name": "Dockerfile",
-        "path": "data/c/castalia/python-ansible-experimental/Dockerfile",
-        "sha": "e357b854c41e6770dabe524d5a60e4c490612be9",
-        "url": "https://api.github.com/repositories/157125489/contents/data/c/castalia/python-ansible-experimental/Dockerfile?ref=137092f25ed95d8cb927556b4a4e7b62779c60de",
-        "git_url": "https://api.github.com/repositories/157125489/git/blobs/e357b854c41e6770dabe524d5a60e4c490612be9",
-        "html_url": "https://github.com/openschemas/dockerfiles/blob/137092f25ed95d8cb927556b4a4e7b62779c60de/data/c/castalia/python-ansible-experimental/Dockerfile",
-        "repository": {
-            "id": 157125489,
-            "node_id": "MDEwOlJlcG9zaXRvcnkxNTcxMjU0ODk=",
-            "name": "dockerfiles",
-            "full_name": "openschemas/dockerfiles",
-            "private": false,
-            "owner": {
-                "login": "openschemas",
-                "id": 43394632,
-                "node_id": "MDEyOk9yZ2FuaXphdGlvbjQzMzk0NjMy",
-                "avatar_url": "https://avatars0.githubusercontent.com/u/43394632?v=4",
-                "gravatar_id": "",
-                "url": "https://api.github.com/users/openschemas",
-                "html_url": "https://github.com/openschemas",
-                "followers_url": "https://api.github.com/users/openschemas/followers",
-                "following_url": "https://api.github.com/users/openschemas/following{/other_user}",
-                "gists_url": "https://api.github.com/users/openschemas/gists{/gist_id}",
-                "starred_url": "https://api.github.com/users/openschemas/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/openschemas/subscriptions",
-                "organizations_url": "https://api.github.com/users/openschemas/orgs",
-                "repos_url": "https://api.github.com/users/openschemas/repos",
-                "events_url": "https://api.github.com/users/openschemas/events{/privacy}",
-                "received_events_url": "https://api.github.com/users/openschemas/received_events",
-                "type": "Organization",
-                "site_admin": false
-            },
-            "html_url": "https://github.com/openschemas/dockerfiles",
-            "description": "More scaled example of using schema.org to generate metadata for Dockerfiles (container recipes)",
-            "fork": false,
-            "url": "https://api.github.com/repos/openschemas/dockerfiles",
-            "forks_url": "https://api.github.com/repos/openschemas/dockerfiles/forks",
-            "keys_url": "https://api.github.com/repos/openschemas/dockerfiles/keys{/key_id}",
-            "collaborators_url": "https://api.github.com/repos/openschemas/dockerfiles/collaborators{/collaborator}",
-            "teams_url": "https://api.github.com/repos/openschemas/dockerfiles/teams",
-            "hooks_url": "https://api.github.com/repos/openschemas/dockerfiles/hooks",
-            "issue_events_url": "https://api.github.com/repos/openschemas/dockerfiles/issues/events{/number}",
-            "events_url": "https://api.github.com/repos/openschemas/dockerfiles/events",
-            "assignees_url": "https://api.github.com/repos/openschemas/dockerfiles/assignees{/user}",
-            "branches_url": "https://api.github.com/repos/openschemas/dockerfiles/branches{/branch}",
-            "tags_url": "https://api.github.com/repos/openschemas/dockerfiles/tags",
-            "blobs_url": "https://api.github.com/repos/openschemas/dockerfiles/git/blobs{/sha}",
-            "git_tags_url": "https://api.github.com/repos/openschemas/dockerfiles/git/tags{/sha}",
-            "git_refs_url": "https://api.github.com/repos/openschemas/dockerfiles/git/refs{/sha}",
-            "trees_url": "https://api.github.com/repos/openschemas/dockerfiles/git/trees{/sha}",
-            "statuses_url": "https://api.github.com/repos/openschemas/dockerfiles/statuses/{sha}",
-            "languages_url": "https://api.github.com/repos/openschemas/dockerfiles/languages",
-            "stargazers_url": "https://api.github.com/repos/openschemas/dockerfiles/stargazers",
-            "contributors_url": "https://api.github.com/repos/openschemas/dockerfiles/contributors",
-            "subscribers_url": "https://api.github.com/repos/openschemas/dockerfiles/subscribers",
-            "subscription_url": "https://api.github.com/repos/openschemas/dockerfiles/subscription",
-            "commits_url": "https://api.github.com/repos/openschemas/dockerfiles/commits{/sha}",
-            "git_commits_url": "https://api.github.com/repos/openschemas/dockerfiles/git/commits{/sha}",
-            "comments_url": "https://api.github.com/repos/openschemas/dockerfiles/comments{/number}",
-            "issue_comment_url": "https://api.github.com/repos/openschemas/dockerfiles/issues/comments{/number}",
-            "contents_url": "https://api.github.com/repos/openschemas/dockerfiles/contents/{+path}",
-            "compare_url": "https://api.github.com/repos/openschemas/dockerfiles/compare/{base}...{head}",
-            "merges_url": "https://api.github.com/repos/openschemas/dockerfiles/merges",
-            "archive_url": "https://api.github.com/repos/openschemas/dockerfiles/{archive_format}{/ref}",
-            "downloads_url": "https://api.github.com/repos/openschemas/dockerfiles/downloads",
-            "issues_url": "https://api.github.com/repos/openschemas/dockerfiles/issues{/number}",
-            "pulls_url": "https://api.github.com/repos/openschemas/dockerfiles/pulls{/number}",
-            "milestones_url": "https://api.github.com/repos/openschemas/dockerfiles/milestones{/number}",
-            "notifications_url": "https://api.github.com/repos/openschemas/dockerfiles/notifications{?since,all,participating}",
-            "labels_url": "https://api.github.com/repos/openschemas/dockerfiles/labels{/name}",
-            "releases_url": "https://api.github.com/repos/openschemas/dockerfiles/releases{/id}",
-            "deployments_url": "https://api.github.com/repos/openschemas/dockerfiles/deployments"
-        },
-        "score": 33.347702
-    },
-    {
-        "name": "Dockerfile",
-        "path": "Dockerfile",
-        "sha": "c58ac8def06b0e10019333b653b3c5ad2c4c60e3",
-        "url": "https://api.github.com/repositories/20317053/contents/Dockerfile?ref=8b851a369f72397270ab9aef0eda341a5c50c387",
-        "git_url": "https://api.github.com/repositories/20317053/git/blobs/c58ac8def06b0e10019333b653b3c5ad2c4c60e3",
-        "html_url": "https://github.com/soundkitchen/docker-mroonga/blob/8b851a369f72397270ab9aef0eda341a5c50c387/Dockerfile",
-        "repository": {
-            "id": 20317053,
-            "node_id": "MDEwOlJlcG9zaXRvcnkyMDMxNzA1Mw==",
-            "name": "docker-mroonga",
-            "full_name": "soundkitchen/docker-mroonga",
-            "private": false,
-            "owner": {
-                "login": "soundkitchen",
-                "id": 53706,
-                "node_id": "MDQ6VXNlcjUzNzA2",
-                "avatar_url": "https://avatars0.githubusercontent.com/u/53706?v=4",
-                "gravatar_id": "",
-                "url": "https://api.github.com/users/soundkitchen",
-                "html_url": "https://github.com/soundkitchen",
-                "followers_url": "https://api.github.com/users/soundkitchen/followers",
-                "following_url": "https://api.github.com/users/soundkitchen/following{/other_user}",
-                "gists_url": "https://api.github.com/users/soundkitchen/gists{/gist_id}",
-                "starred_url": "https://api.github.com/users/soundkitchen/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/soundkitchen/subscriptions",
-                "organizations_url": "https://api.github.com/users/soundkitchen/orgs",
-                "repos_url": "https://api.github.com/users/soundkitchen/repos",
-                "events_url": "https://api.github.com/users/soundkitchen/events{/privacy}",
-                "received_events_url": "https://api.github.com/users/soundkitchen/received_events",
-                "type": "User",
-                "site_admin": false
-            },
-            "html_url": "https://github.com/soundkitchen/docker-mroonga",
-            "description": "a Docker image to run MySQL including mroonga!",
-            "fork": false,
-            "url": "https://api.github.com/repos/soundkitchen/docker-mroonga",
-            "forks_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/forks",
-            "keys_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/keys{/key_id}",
-            "collaborators_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/collaborators{/collaborator}",
-            "teams_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/teams",
-            "hooks_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/hooks",
-            "issue_events_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/issues/events{/number}",
-            "events_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/events",
-            "assignees_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/assignees{/user}",
-            "branches_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/branches{/branch}",
-            "tags_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/tags",
-            "blobs_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/git/blobs{/sha}",
-            "git_tags_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/git/tags{/sha}",
-            "git_refs_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/git/refs{/sha}",
-            "trees_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/git/trees{/sha}",
-            "statuses_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/statuses/{sha}",
-            "languages_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/languages",
-            "stargazers_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/stargazers",
-            "contributors_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/contributors",
-            "subscribers_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/subscribers",
-            "subscription_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/subscription",
-            "commits_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/commits{/sha}",
-            "git_commits_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/git/commits{/sha}",
-            "comments_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/comments{/number}",
-            "issue_comment_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/issues/comments{/number}",
-            "contents_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/contents/{+path}",
-            "compare_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/compare/{base}...{head}",
-            "merges_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/merges",
-            "archive_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/{archive_format}{/ref}",
-            "downloads_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/downloads",
-            "issues_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/issues{/number}",
-            "pulls_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/pulls{/number}",
-            "milestones_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/milestones{/number}",
-            "notifications_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/notifications{?since,all,participating}",
-            "labels_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/labels{/name}",
-            "releases_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/releases{/id}",
-            "deployments_url": "https://api.github.com/repos/soundkitchen/docker-mroonga/deployments"
-        },
-        "score": 32.1886
-    },
-    {
-        "name": "Dockerfile",
-        "path": "data/p/pepechoko/docker-mysql-mroonga/Dockerfile",
-        "sha": "4c01ac2d8b24d0ba72cd1a7a84e9caa1c5dcd2a0",
-        "url": "https://api.github.com/repositories/91141092/contents/data/p/pepechoko/docker-mysql-mroonga/Dockerfile?ref=e8794a14ec86d8c03b3a00d1b9a659147f992e68",
-        "git_url": "https://api.github.com/repositories/91141092/git/blobs/4c01ac2d8b24d0ba72cd1a7a84e9caa1c5dcd2a0",
-        "html_url": "https://github.com/vsoch/dockerfiles/blob/e8794a14ec86d8c03b3a00d1b9a659147f992e68/data/p/pepechoko/docker-mysql-mroonga/Dockerfile",
-        "repository": {
-            "id": 91141092,
-            "node_id": "MDEwOlJlcG9zaXRvcnk5MTE0MTA5Mg==",
-            "name": "dockerfiles",
-            "full_name": "vsoch/dockerfiles",
-            "private": false,
-            "owner": {
-                "login": "vsoch",
-                "id": 814322,
-                "node_id": "MDQ6VXNlcjgxNDMyMg==",
-                "avatar_url": "https://avatars0.githubusercontent.com/u/814322?v=4",
-                "gravatar_id": "",
-                "url": "https://api.github.com/users/vsoch",
-                "html_url": "https://github.com/vsoch",
-                "followers_url": "https://api.github.com/users/vsoch/followers",
-                "following_url": "https://api.github.com/users/vsoch/following{/other_user}",
-                "gists_url": "https://api.github.com/users/vsoch/gists{/gist_id}",
-                "starred_url": "https://api.github.com/users/vsoch/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/vsoch/subscriptions",
-                "organizations_url": "https://api.github.com/users/vsoch/orgs",
-                "repos_url": "https://api.github.com/users/vsoch/repos",
-                "events_url": "https://api.github.com/users/vsoch/events{/privacy}",
-                "received_events_url": "https://api.github.com/users/vsoch/received_events",
-                "type": "User",
-                "site_admin": false
-            },
-            "html_url": "https://github.com/vsoch/dockerfiles",
-            "description": "a set of scientific dockerfiles, a dinosaur dataset",
-            "fork": false,
-            "url": "https://api.github.com/repos/vsoch/dockerfiles",
-            "forks_url": "https://api.github.com/repos/vsoch/dockerfiles/forks",
-            "keys_url": "https://api.github.com/repos/vsoch/dockerfiles/keys{/key_id}",
-            "collaborators_url": "https://api.github.com/repos/vsoch/dockerfiles/collaborators{/collaborator}",
-            "teams_url": "https://api.github.com/repos/vsoch/dockerfiles/teams",
-            "hooks_url": "https://api.github.com/repos/vsoch/dockerfiles/hooks",
-            "issue_events_url": "https://api.github.com/repos/vsoch/dockerfiles/issues/events{/number}",
-            "events_url": "https://api.github.com/repos/vsoch/dockerfiles/events",
-            "assignees_url": "https://api.github.com/repos/vsoch/dockerfiles/assignees{/user}",
-            "branches_url": "https://api.github.com/repos/vsoch/dockerfiles/branches{/branch}",
-            "tags_url": "https://api.github.com/repos/vsoch/dockerfiles/tags",
-            "blobs_url": "https://api.github.com/repos/vsoch/dockerfiles/git/blobs{/sha}",
-            "git_tags_url": "https://api.github.com/repos/vsoch/dockerfiles/git/tags{/sha}",
-            "git_refs_url": "https://api.github.com/repos/vsoch/dockerfiles/git/refs{/sha}",
-            "trees_url": "https://api.github.com/repos/vsoch/dockerfiles/git/trees{/sha}",
-            "statuses_url": "https://api.github.com/repos/vsoch/dockerfiles/statuses/{sha}",
-            "languages_url": "https://api.github.com/repos/vsoch/dockerfiles/languages",
-            "stargazers_url": "https://api.github.com/repos/vsoch/dockerfiles/stargazers",
-            "contributors_url": "https://api.github.com/repos/vsoch/dockerfiles/contributors",
-            "subscribers_url": "https://api.github.com/repos/vsoch/dockerfiles/subscribers",
-            "subscription_url": "https://api.github.com/repos/vsoch/dockerfiles/subscription",
-            "commits_url": "https://api.github.com/repos/vsoch/dockerfiles/commits{/sha}",
-            "git_commits_url": "https://api.github.com/repos/vsoch/dockerfiles/git/commits{/sha}",
-            "comments_url": "https://api.github.com/repos/vsoch/dockerfiles/comments{/number}",
-            "issue_comment_url": "https://api.github.com/repos/vsoch/dockerfiles/issues/comments{/number}",
-            "contents_url": "https://api.github.com/repos/vsoch/dockerfiles/contents/{+path}",
-            "compare_url": "https://api.github.com/repos/vsoch/dockerfiles/compare/{base}...{head}",
-            "merges_url": "https://api.github.com/repos/vsoch/dockerfiles/merges",
-            "archive_url": "https://api.github.com/repos/vsoch/dockerfiles/{archive_format}{/ref}",
-            "downloads_url": "https://api.github.com/repos/vsoch/dockerfiles/downloads",
-            "issues_url": "https://api.github.com/repos/vsoch/dockerfiles/issues{/number}",
-            "pulls_url": "https://api.github.com/repos/vsoch/dockerfiles/pulls{/number}",
-            "milestones_url": "https://api.github.com/repos/vsoch/dockerfiles/milestones{/number}",
-            "notifications_url": "https://api.github.com/repos/vsoch/dockerfiles/notifications{?since,all,participating}",
-            "labels_url": "https://api.github.com/repos/vsoch/dockerfiles/labels{/name}",
-            "releases_url": "https://api.github.com/repos/vsoch/dockerfiles/releases{/id}",
-            "deployments_url": "https://api.github.com/repos/vsoch/dockerfiles/deployments"
-        },
-        "score": 32.1886
-    },
-    {
-        "name": "Dockerfile",
-        "path": "Dockerfile",
-        "sha": "ee359f1d9d239f309b57d1e24de2285634fb5552",
-        "url": "https://api.github.com/repositories/80601015/contents/Dockerfile?ref=b5e988e66e5b6086f1459af3a320e2da7540632d",
-        "git_url": "https://api.github.com/repositories/80601015/git/blobs/ee359f1d9d239f309b57d1e24de2285634fb5552",
-        "html_url": "https://github.com/kenji-toforone/debian-mariadb-mroonga-mecab/blob/b5e988e66e5b6086f1459af3a320e2da7540632d/Dockerfile",
-        "repository": {
-            "id": 80601015,
-            "node_id": "MDEwOlJlcG9zaXRvcnk4MDYwMTAxNQ==",
-            "name": "debian-mariadb-mroonga-mecab",
-            "full_name": "kenji-toforone/debian-mariadb-mroonga-mecab",
-            "private": false,
-            "owner": {
-                "login": "kenji-toforone",
-                "id": 25378401,
-                "node_id": "MDQ6VXNlcjI1Mzc4NDAx",
-                "avatar_url": "https://avatars1.githubusercontent.com/u/25378401?v=4",
-                "gravatar_id": "",
-                "url": "https://api.github.com/users/kenji-toforone",
-                "html_url": "https://github.com/kenji-toforone",
-                "followers_url": "https://api.github.com/users/kenji-toforone/followers",
-                "following_url": "https://api.github.com/users/kenji-toforone/following{/other_user}",
-                "gists_url": "https://api.github.com/users/kenji-toforone/gists{/gist_id}",
-                "starred_url": "https://api.github.com/users/kenji-toforone/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/kenji-toforone/subscriptions",
-                "organizations_url": "https://api.github.com/users/kenji-toforone/orgs",
-                "repos_url": "https://api.github.com/users/kenji-toforone/repos",
-                "events_url": "https://api.github.com/users/kenji-toforone/events{/privacy}",
-                "received_events_url": "https://api.github.com/users/kenji-toforone/received_events",
-                "type": "User",
-                "site_admin": false
-            },
-            "html_url": "https://github.com/kenji-toforone/debian-mariadb-mroonga-mecab",
-            "description": "dockerfile debian:jessie,mariadb10.0.29-0+deb8u1,mroonga:6.13-3,mecabtokenizer:6.1.5-1",
-            "fork": false,
-            "url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab",
-            "forks_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/forks",
-            "keys_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/keys{/key_id}",
-            "collaborators_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/collaborators{/collaborator}",
-            "teams_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/teams",
-            "hooks_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/hooks",
-            "issue_events_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/issues/events{/number}",
-            "events_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/events",
-            "assignees_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/assignees{/user}",
-            "branches_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/branches{/branch}",
-            "tags_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/tags",
-            "blobs_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/git/blobs{/sha}",
-            "git_tags_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/git/tags{/sha}",
-            "git_refs_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/git/refs{/sha}",
-            "trees_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/git/trees{/sha}",
-            "statuses_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/statuses/{sha}",
-            "languages_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/languages",
-            "stargazers_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/stargazers",
-            "contributors_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/contributors",
-            "subscribers_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/subscribers",
-            "subscription_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/subscription",
-            "commits_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/commits{/sha}",
-            "git_commits_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/git/commits{/sha}",
-            "comments_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/comments{/number}",
-            "issue_comment_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/issues/comments{/number}",
-            "contents_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/contents/{+path}",
-            "compare_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/compare/{base}...{head}",
-            "merges_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/merges",
-            "archive_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/{archive_format}{/ref}",
-            "downloads_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/downloads",
-            "issues_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/issues{/number}",
-            "pulls_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/pulls{/number}",
-            "milestones_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/milestones{/number}",
-            "notifications_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/notifications{?since,all,participating}",
-            "labels_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/labels{/name}",
-            "releases_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/releases{/id}",
-            "deployments_url": "https://api.github.com/repos/kenji-toforone/debian-mariadb-mroonga-mecab/deployments"
-        },
-        "score": 31.324553
-    },
-    {
-        "name": "Dockerfile",
-        "path": "Docker/Dockerfile",
-        "sha": "27cc4f54cb026bf6487ae1e992b7db7521fbbced",
-        "url": "https://api.github.com/repositories/41774906/contents/Docker/Dockerfile?ref=01fda5a510833185d3f6a25b57996ff8979f6096",
-        "git_url": "https://api.github.com/repositories/41774906/git/blobs/27cc4f54cb026bf6487ae1e992b7db7521fbbced",
-        "html_url": "https://github.com/castalia-deploy/python-ansible/blob/01fda5a510833185d3f6a25b57996ff8979f6096/Docker/Dockerfile",
-        "repository": {
-            "id": 41774906,
-            "node_id": "MDEwOlJlcG9zaXRvcnk0MTc3NDkwNg==",
-            "name": "python-ansible",
-            "full_name": "castalia-deploy/python-ansible",
-            "private": false,
-            "owner": {
-                "login": "castalia-deploy",
-                "id": 13901347,
-                "node_id": "MDQ6VXNlcjEzOTAxMzQ3",
-                "avatar_url": "https://avatars1.githubusercontent.com/u/13901347?v=4",
-                "gravatar_id": "",
-                "url": "https://api.github.com/users/castalia-deploy",
-                "html_url": "https://github.com/castalia-deploy",
-                "followers_url": "https://api.github.com/users/castalia-deploy/followers",
-                "following_url": "https://api.github.com/users/castalia-deploy/following{/other_user}",
-                "gists_url": "https://api.github.com/users/castalia-deploy/gists{/gist_id}",
-                "starred_url": "https://api.github.com/users/castalia-deploy/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/castalia-deploy/subscriptions",
-                "organizations_url": "https://api.github.com/users/castalia-deploy/orgs",
-                "repos_url": "https://api.github.com/users/castalia-deploy/repos",
-                "events_url": "https://api.github.com/users/castalia-deploy/events{/privacy}",
-                "received_events_url": "https://api.github.com/users/castalia-deploy/received_events",
-                "type": "User",
-                "site_admin": false
-            },
-            "html_url": "https://github.com/castalia-deploy/python-ansible",
-            "description": "python",
-            "fork": false,
-            "url": "https://api.github.com/repos/castalia-deploy/python-ansible",
-            "forks_url": "https://api.github.com/repos/castalia-deploy/python-ansible/forks",
-            "keys_url": "https://api.github.com/repos/castalia-deploy/python-ansible/keys{/key_id}",
-            "collaborators_url": "https://api.github.com/repos/castalia-deploy/python-ansible/collaborators{/collaborator}",
-            "teams_url": "https://api.github.com/repos/castalia-deploy/python-ansible/teams",
-            "hooks_url": "https://api.github.com/repos/castalia-deploy/python-ansible/hooks",
-            "issue_events_url": "https://api.github.com/repos/castalia-deploy/python-ansible/issues/events{/number}",
-            "events_url": "https://api.github.com/repos/castalia-deploy/python-ansible/events",
-            "assignees_url": "https://api.github.com/repos/castalia-deploy/python-ansible/assignees{/user}",
-            "branches_url": "https://api.github.com/repos/castalia-deploy/python-ansible/branches{/branch}",
-            "tags_url": "https://api.github.com/repos/castalia-deploy/python-ansible/tags",
-            "blobs_url": "https://api.github.com/repos/castalia-deploy/python-ansible/git/blobs{/sha}",
-            "git_tags_url": "https://api.github.com/repos/castalia-deploy/python-ansible/git/tags{/sha}",
-            "git_refs_url": "https://api.github.com/repos/castalia-deploy/python-ansible/git/refs{/sha}",
-            "trees_url": "https://api.github.com/repos/castalia-deploy/python-ansible/git/trees{/sha}",
-            "statuses_url": "https://api.github.com/repos/castalia-deploy/python-ansible/statuses/{sha}",
-            "languages_url": "https://api.github.com/repos/castalia-deploy/python-ansible/languages",
-            "stargazers_url": "https://api.github.com/repos/castalia-deploy/python-ansible/stargazers",
-            "contributors_url": "https://api.github.com/repos/castalia-deploy/python-ansible/contributors",
-            "subscribers_url": "https://api.github.com/repos/castalia-deploy/python-ansible/subscribers",
-            "subscription_url": "https://api.github.com/repos/castalia-deploy/python-ansible/subscription",
-            "commits_url": "https://api.github.com/repos/castalia-deploy/python-ansible/commits{/sha}",
-            "git_commits_url": "https://api.github.com/repos/castalia-deploy/python-ansible/git/commits{/sha}",
-            "comments_url": "https://api.github.com/repos/castalia-deploy/python-ansible/comments{/number}",
-            "issue_comment_url": "https://api.github.com/repos/castalia-deploy/python-ansible/issues/comments{/number}",
-            "contents_url": "https://api.github.com/repos/castalia-deploy/python-ansible/contents/{+path}",
-            "compare_url": "https://api.github.com/repos/castalia-deploy/python-ansible/compare/{base}...{head}",
-            "merges_url": "https://api.github.com/repos/castalia-deploy/python-ansible/merges",
-            "archive_url": "https://api.github.com/repos/castalia-deploy/python-ansible/{archive_format}{/ref}",
-            "downloads_url": "https://api.github.com/repos/castalia-deploy/python-ansible/downloads",
-            "issues_url": "https://api.github.com/repos/castalia-deploy/python-ansible/issues{/number}",
-            "pulls_url": "https://api.github.com/repos/castalia-deploy/python-ansible/pulls{/number}",
-            "milestones_url": "https://api.github.com/repos/castalia-deploy/python-ansible/milestones{/number}",
-            "notifications_url": "https://api.github.com/repos/castalia-deploy/python-ansible/notifications{?since,all,participating}",
-            "labels_url": "https://api.github.com/repos/castalia-deploy/python-ansible/labels{/name}",
-            "releases_url": "https://api.github.com/repos/castalia-deploy/python-ansible/releases{/id}",
-            "deployments_url": "https://api.github.com/repos/castalia-deploy/python-ansible/deployments"
-        },
-        "score": 31.04346
-    },
-    {
-        "name": "Dockerfile",
-        "path": "Dockerfile",
-        "sha": "ce6685f6628cbd78d453372adab98b3e6376ee88",
-        "url": "https://api.github.com/repositories/46855696/contents/Dockerfile?ref=2b8dae3f873fa1e5bce442a0c4d01f5bb9ce4566",
-        "git_url": "https://api.github.com/repositories/46855696/git/blobs/ce6685f6628cbd78d453372adab98b3e6376ee88",
-        "html_url": "https://github.com/hitoshi-t-pepe3/docker-mysql-mroonga/blob/2b8dae3f873fa1e5bce442a0c4d01f5bb9ce4566/Dockerfile",
-        "repository": {
-            "id": 46855696,
-            "node_id": "MDEwOlJlcG9zaXRvcnk0Njg1NTY5Ng==",
-            "name": "docker-mysql-mroonga",
-            "full_name": "hitoshi-t-pepe3/docker-mysql-mroonga",
-            "private": false,
-            "owner": {
-                "login": "hitoshi-t-pepe3",
-                "id": 5433168,
-                "node_id": "MDQ6VXNlcjU0MzMxNjg=",
-                "avatar_url": "https://avatars1.githubusercontent.com/u/5433168?v=4",
-                "gravatar_id": "",
-                "url": "https://api.github.com/users/hitoshi-t-pepe3",
-                "html_url": "https://github.com/hitoshi-t-pepe3",
-                "followers_url": "https://api.github.com/users/hitoshi-t-pepe3/followers",
-                "following_url": "https://api.github.com/users/hitoshi-t-pepe3/following{/other_user}",
-                "gists_url": "https://api.github.com/users/hitoshi-t-pepe3/gists{/gist_id}",
-                "starred_url": "https://api.github.com/users/hitoshi-t-pepe3/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/hitoshi-t-pepe3/subscriptions",
-                "organizations_url": "https://api.github.com/users/hitoshi-t-pepe3/orgs",
-                "repos_url": "https://api.github.com/users/hitoshi-t-pepe3/repos",
-                "events_url": "https://api.github.com/users/hitoshi-t-pepe3/events{/privacy}",
-                "received_events_url": "https://api.github.com/users/hitoshi-t-pepe3/received_events",
-                "type": "User",
-                "site_admin": false
-            },
-            "html_url": "https://github.com/hitoshi-t-pepe3/docker-mysql-mroonga",
-            "description": null,
-            "fork": false,
-            "url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga",
-            "forks_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/forks",
-            "keys_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/keys{/key_id}",
-            "collaborators_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/collaborators{/collaborator}",
-            "teams_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/teams",
-            "hooks_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/hooks",
-            "issue_events_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/issues/events{/number}",
-            "events_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/events",
-            "assignees_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/assignees{/user}",
-            "branches_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/branches{/branch}",
-            "tags_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/tags",
-            "blobs_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/git/blobs{/sha}",
-            "git_tags_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/git/tags{/sha}",
-            "git_refs_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/git/refs{/sha}",
-            "trees_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/git/trees{/sha}",
-            "statuses_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/statuses/{sha}",
-            "languages_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/languages",
-            "stargazers_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/stargazers",
-            "contributors_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/contributors",
-            "subscribers_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/subscribers",
-            "subscription_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/subscription",
-            "commits_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/commits{/sha}",
-            "git_commits_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/git/commits{/sha}",
-            "comments_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/comments{/number}",
-            "issue_comment_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/issues/comments{/number}",
-            "contents_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/contents/{+path}",
-            "compare_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/compare/{base}...{head}",
-            "merges_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/merges",
-            "archive_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/{archive_format}{/ref}",
-            "downloads_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/downloads",
-            "issues_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/issues{/number}",
-            "pulls_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/pulls{/number}",
-            "milestones_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/milestones{/number}",
-            "notifications_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/notifications{?since,all,participating}",
-            "labels_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/labels{/name}",
-            "releases_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/releases{/id}",
-            "deployments_url": "https://api.github.com/repos/hitoshi-t-pepe3/docker-mysql-mroonga/deployments"
-        },
-        "score": 30.654198
-    },
-    {
-        "name": "dockerfile",
-        "path": "dockerfile",
-        "sha": "d7532c6730f0c4493a4636da3975e7e27b39e4e6",
-        "url": "https://api.github.com/repositories/124282875/contents/dockerfile?ref=715df0d3fffab71f660bae4a5c32527c356ac191",
-        "git_url": "https://api.github.com/repositories/124282875/git/blobs/d7532c6730f0c4493a4636da3975e7e27b39e4e6",
-        "html_url": "https://github.com/langens-jonathan/github-repositories-data/blob/715df0d3fffab71f660bae4a5c32527c356ac191/dockerfile",
-        "repository": {
-            "id": 124282875,
-            "node_id": "MDEwOlJlcG9zaXRvcnkxMjQyODI4NzU=",
-            "name": "github-repositories-data",
-            "full_name": "langens-jonathan/github-repositories-data",
-            "private": false,
-            "owner": {
-                "login": "langens-jonathan",
-                "id": 1756405,
-                "node_id": "MDQ6VXNlcjE3NTY0MDU=",
-                "avatar_url": "https://avatars1.githubusercontent.com/u/1756405?v=4",
-                "gravatar_id": "",
-                "url": "https://api.github.com/users/langens-jonathan",
-                "html_url": "https://github.com/langens-jonathan",
-                "followers_url": "https://api.github.com/users/langens-jonathan/followers",
-                "following_url": "https://api.github.com/users/langens-jonathan/following{/other_user}",
-                "gists_url": "https://api.github.com/users/langens-jonathan/gists{/gist_id}",
-                "starred_url": "https://api.github.com/users/langens-jonathan/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/langens-jonathan/subscriptions",
-                "organizations_url": "https://api.github.com/users/langens-jonathan/orgs",
-                "repos_url": "https://api.github.com/users/langens-jonathan/repos",
-                "events_url": "https://api.github.com/users/langens-jonathan/events{/privacy}",
-                "received_events_url": "https://api.github.com/users/langens-jonathan/received_events",
-                "type": "User",
-                "site_admin": false
-            },
-            "html_url": "https://github.com/langens-jonathan/github-repositories-data",
-            "description": "A bunch of files where for each file on every line there is a URL for github that was returned when searching for the filename.",
-            "fork": false,
-            "url": "https://api.github.com/repos/langens-jonathan/github-repositories-data",
-            "forks_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/forks",
-            "keys_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/keys{/key_id}",
-            "collaborators_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/collaborators{/collaborator}",
-            "teams_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/teams",
-            "hooks_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/hooks",
-            "issue_events_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/issues/events{/number}",
-            "events_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/events",
-            "assignees_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/assignees{/user}",
-            "branches_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/branches{/branch}",
-            "tags_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/tags",
-            "blobs_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/git/blobs{/sha}",
-            "git_tags_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/git/tags{/sha}",
-            "git_refs_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/git/refs{/sha}",
-            "trees_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/git/trees{/sha}",
-            "statuses_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/statuses/{sha}",
-            "languages_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/languages",
-            "stargazers_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/stargazers",
-            "contributors_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/contributors",
-            "subscribers_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/subscribers",
-            "subscription_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/subscription",
-            "commits_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/commits{/sha}",
-            "git_commits_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/git/commits{/sha}",
-            "comments_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/comments{/number}",
-            "issue_comment_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/issues/comments{/number}",
-            "contents_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/contents/{+path}",
-            "compare_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/compare/{base}...{head}",
-            "merges_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/merges",
-            "archive_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/{archive_format}{/ref}",
-            "downloads_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/downloads",
-            "issues_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/issues{/number}",
-            "pulls_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/pulls{/number}",
-            "milestones_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/milestones{/number}",
-            "notifications_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/notifications{?since,all,participating}",
-            "labels_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/labels{/name}",
-            "releases_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/releases{/id}",
-            "deployments_url": "https://api.github.com/repos/langens-jonathan/github-repositories-data/deployments"
-        },
-        "score": 17.829647
+        "score": 12.573551
     }
 ]
