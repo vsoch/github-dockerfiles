@@ -1,0 +1,7 @@
+FROM golang:1.9
+
+ADD . /go/src/github.com/sendgrid/fake_relayd
+
+RUN go install github.com/sendgrid/fake_relayd
+
+CMD fake_relayd

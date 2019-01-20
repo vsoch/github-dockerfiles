@@ -1,0 +1,4 @@
+- Nginx mainline (PPA)
+- NodeJS (PPA)
+- rvm + ruby 1.9.3
+- Bundler

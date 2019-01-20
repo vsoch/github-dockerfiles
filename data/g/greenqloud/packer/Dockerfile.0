@@ -1,0 +1,22 @@
+FROM debian:8
+
+ENV PACKER_VERSION 0.8.6
+
+ENV INSTALL_VMWARE 0
+#ADD VMware-Player-7.1.2-2780323.x86_64.bundle /VMware-Player.x86_64.bundle
+#ADD VMware-VIX-1.14.2-2780323.x86_64.bundle /VMware-VIX.x86_64.bundle
+
+ADD files/bin/* /bin/
+
+RUN apt-get update && \
+    apt-get -y install unzip git-core wget curl qemu make vim s3cmd squashfs-tools advancecomp genisoimage cpio net-tools tofrodos jq && \
+    ln -s /usr/bin/genisoimage /usr/bin/mkisofs && \
+    install-vmware-from-bundles && \
+    # some weird issue with too many redirects on wget on debian jessie
+    cd /tmp && curl --insecure -L -o packer_${PACKER_VERSION}_linux_amd64.zip https://dl.bintray.com/mitchellh/packer/packer_${PACKER_VERSION}_linux_amd64.zip && \
+    #cd /tmp && wget https://dl.bintray.com/mitchellh/packer/packer_${PACKER_VERSION}_linux_amd64.zip && \
+    unzip packer_${PACKER_VERSION}_linux_amd64.zip && rm packer_${PACKER_VERSION}_linux_amd64.zip && mv packer* /usr/bin
+
+ADD . /packer
+
+CMD /bin/bash

@@ -1,0 +1,14 @@
+FROM node:11
+
+ENV fromSymbol ETH
+ENV toSymbol   USD
+ENV zkConnect  zookeeper:2181
+ENV topic test
+
+WORKDIR /app
+
+COPY package.json /app
+RUN npm install
+COPY . /app
+
+CMD node stream.js

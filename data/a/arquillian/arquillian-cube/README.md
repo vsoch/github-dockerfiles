@@ -1,0 +1,71 @@
+= Arquillian Cube
+:asciidoctor-source: https://raw.githubusercontent.com/arquillian/arquillian-cube/master/docs
+:numbered:
+:sectlink:
+:sectanchors:
+:sectid:
+:source-language: java
+:source-highlighter: coderay
+:sectnums:
+:icons: font
+:toc: left
+
+image:https://travis-ci.org/arquillian/arquillian-cube.svg?branch=master["Build Status", link="https://travis-ci.org/arquillian/arquillian-cube"]
+
+WARNING: 1.0.0.Alpha7 breaks incompatibility with previous versions in some cases. The major difference is that instead of using the _boot2docker_ keyword to refer to the auto resolved boot2docker ip in the _serverUri_ parameter, you should now used _dockerHost_.
+
+IMPORTANT: 1.0.0.Alpha13 changes default format from Cube to Docker Compose. In case you are using Cube format you need to update arquillian.xml with `<property name="definitionFormat">CUBE</property>`
+
+ifndef::generated-doc[]
+To read complete documentation visit http://arquillian.org/arquillian-cube/
+endif::generated-doc[]
+
+ifdef::generated-doc[]
+include::{asciidoctor-source}/what-is-this.adoc[]
+
+include::{asciidoctor-source}/preliminaries.adoc[]
+
+include::{asciidoctor-source}/example.adoc[]
+
+include::{asciidoctor-source}/bom.adoc[]
+
+include::{asciidoctor-source}/configuration.adoc[]
+
+include::{asciidoctor-source}/boot2docker-dockermachine.adoc[]
+
+include::{asciidoctor-source}/build-containers.adoc[]
+
+include::{asciidoctor-source}/compose.adoc[]
+
+include::{asciidoctor-source}/enrichers.adoc[]
+
+include::{asciidoctor-source}/parallel.adoc[]
+
+include::{asciidoctor-source}/cop.adoc[]
+
+include::{asciidoctor-source}/requirements.adoc[]
+
+include::{asciidoctor-source}/containerless.adoc[]
+
+include::{asciidoctor-source}/drone.adoc[]
+
+include::{asciidoctor-source}/restassured.adoc[]
+
+include::{asciidoctor-source}/reports.adoc[]
+
+include::{asciidoctor-source}/polyglot.adoc[]
+
+include::{asciidoctor-source}/kubernetes.adoc[]
+
+include::{asciidoctor-source}/fabric8.adoc[]
+
+include::{asciidoctor-source}/forge.adoc[]
+
+endif::generated-doc[]
+
+== Future work
+
+Some configuration parameters will be modified to fix any possible requirements.
+Although we are going to try to not break compatibility with previous versions, we cannot guarantee until _beta_ stage.
+
+Feel free to use it and any missing feature, bug or anything you see , feel free to add a new issue.

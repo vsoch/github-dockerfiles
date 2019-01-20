@@ -1,0 +1,123 @@
+r10k
+====
+
+Puppet environment and module deployment
+
+[![Build Status](https://travis-ci.org/puppetlabs/r10k.png?branch=master)](https://travis-ci.org/puppetlabs/r10k)
+
+Description
+-----------
+
+[workflow]: http://puppetlabs.com/blog/git-workflow-and-puppet-environments/
+
+R10k provides a general purpose toolset for deploying Puppet environments and
+modules. It implements the [Puppetfile](doc/puppetfile.mkd) format and provides a native
+implementation of Puppet [dynamic environments][workflow].
+
+Requirements
+------------
+
+R10k supports the Ruby versions `>= 2.3.0`.
+
+R10k requires additional components, depending on how you plan on managing
+environments and modules.
+
+  - Installing modules from the Puppet Forge requires Puppet 5.0.0+ or later.
+  Puppet 3 or 4 may work, but is generally not recommended.
+  - Git is required for creating environments and modules from Git
+  - SVN is required for creating environments and modules from SVN
+
+Installation
+------------
+
+### Rubygems
+
+For general use, you should install r10k from Ruby gems:
+
+    gem install r10k
+    r10k help
+
+### Puppet Enterprise 3.x
+
+Puppet Enterprise bundles a copy of Ruby, so if you do not want to use the
+system version of Ruby with r10k, you need to use the bundled PE gem command for
+installation:
+
+    /opt/puppet/bin/gem install r10k
+    r10k help
+
+### Puppet 4
+
+Puppet 4 bundles a copy of Ruby, so if you do not want to use the
+system version of Ruby with r10k, you need to use the bundled puppet gem command
+for installation.
+
+    /opt/puppetlabs/puppet/bin/gem install r10k
+    /opt/puppetlabs/puppet/bin/r10k help
+
+### Bundler
+
+If you have more specific needs or plan on modifying r10k you can run it out of
+a git repository using Bundler for dependencies:
+
+    git clone git://github.com/puppetlabs/r10k
+    cd r10k
+    bundle install
+    bundle exec r10k help
+
+Usage
+-----
+
+R10k has two primary roles: installing Puppet modules using a standalone
+Puppetfile, and managing Git and SVN based dynamic environments. For more
+information see the topic specific documentation:
+
+  * [Puppetfile Documentation](doc/puppetfile.mkd)
+   * [Updating your Puppetfile](doc/updating-your-puppetfile.mkd)
+  * [Environment Deployment Documentation](doc/dynamic-environments.mkd)
+  * [Quickstart](doc/dynamic-environments/quickstart.mkd)
+  * [Common Patterns](doc/common-patterns.mkd)
+  * [Workflow Guide](doc/dynamic-environments/workflow-guide.mkd)
+
+For more general questions, see the [FAQ](doc/faq.mkd).
+
+Development
+-----------
+
+### i18n
+
+R10k has now had all user-facing strings in error messages and log messages
+externalized. When adding new error or log messages please follow the
+instructions for [writing translatable code](https://github.com/puppetlabs/gettext-setup-gem#writing-translatable-code).
+
+### l10n
+
+When localizing the strings found in R10k, follow the prescribed
+[translation workflow](https://github.com/puppetlabs/gettext-setup-gem#translation-workflow).
+The workflow describes the rake tasks provided to generate the .po files for
+each locale.
+
+Getting help
+------------
+
+  * IRC: r10k has a dedicated channel, `#r10k`, on Freenode where r10k questions
+  can be directed. Questions about r10k can frequently be asked in `#puppet` as well.
+  * Mailing lists: [puppet-users](https://groups.google.com/forum/#!forum/puppet-users)
+  * Q&A: [Puppet Ask](https://ask.puppetlabs.com/questions/)
+
+
+More information
+----------------
+
+The original impetus for r10k is explained at http://somethingsinistral.net/blog/rethinking-puppet-deployment/
+
+Contributors
+------------
+
+Please see the CHANGELOG for a listing of the (very awesome) contributors.
+
+## Maintenance
+
+See [MAINTAINERS](MAINTAINERS) (json file)
+
+Tickets: File at https://tickets.puppet.com/browse/RK

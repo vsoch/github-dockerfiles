@@ -1,0 +1,29 @@
+FROM codenvy/ubuntu_jdk8
+
+USER root
+ENV GRADLE_VERSION 2.11
+ENV SBT_VERSION 0.13.8
+ENV SBT_HOME /usr/local/sbt
+ENV PATH ${PATH}:${SBT_HOME}/bin
+ENV GRADLE_URL=https://downloads.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.zip
+ENV GRADLE_HOME /usr/bin/gradle
+
+RUN apt-get update && \
+    apt-get -y install vim && \
+    apt-get clean all
+
+RUN curl -sL "http://dl.bintray.com/sbt/native-packages/sbt/$SBT_VERSION/sbt-$SBT_VERSION.tgz" | gunzip | tar -x -C /usr/local
+RUN    echo -ne "- with sbt $SBT_VERSION\n" >> /root/.built
+
+RUN wget -O gradle.zip $GRADLE_URL \
+ && unzip gradle.zip \
+ && rm gradle.zip \
+ && sudo mv gradle-${GRADLE_VERSION} $GRADLE_HOME \
+ && sudo chmod -R 777 $GRADLE_HOME
+
+ENV PATH $PATH:$GRADLE_HOME/bin
+ENV _JAVA_OPTIONS -Duser.home=$GRADLE_HOME
+
+USER user
+CMD sudo /usr/sbin/sshd -D && \
+    tail -f /dev/null

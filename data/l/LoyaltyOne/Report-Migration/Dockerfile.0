@@ -1,0 +1,46 @@
+FROM centos:7.5.1804
+
+WORKDIR /app
+
+# https://www.rosehosting.com/blog/how-to-install-python-3-6-4-on-centos-7/
+RUN yum --assumeyes --quiet install https://centos7.iuscommunity.org/ius-release.rpm && \
+    yum --assumeyes --quiet update && \
+    yum --assumeyes --quiet install python36u python36u-libs python36u-devel python36u-pip
+
+# https://www.rosehosting.com/blog/how-to-install-node-js-and-npm-on-centos-7/
+RUN yum --assumeyes --quiet install epel-release && \
+    curl --silent --location https://rpm.nodesource.com/setup_9.x | bash - && \
+    yum --assumeyes --quiet install nodejs
+
+# installing local psql command line
+RUN curl -O https://download.postgresql.org/pub/repos/yum/9.6/redhat/rhel-6-x86_64/pgdg-ami201503-96-9.6-2.noarch.rpm && \
+    rpm -ivh pgdg-ami201503-96-9.6-2.noarch.rpm && \
+    yum install --assumeyes --quiet postgresql96-server.x86_64 postgresql96-contrib.x86_64 postgresql96-devel.x86_64
+
+# installing useful utilities
+# NOT SURE WHY TO INSTALL openssl-devel and openssl
+RUN yum --assumeyes --quiet install cron crontabs curl less vim openssl-devel openssl
+
+# awscli to copy files from s3
+# psycopg2 for postgres
+# NOT SURE WHY TO INSTALL pycryptodome - we will use kms-env to decrypt
+RUN pip3.6 install awscli --quiet && \
+    pip3.6 install psycopg2 --quiet && \
+    pip3.6 install pycryptodome --quiet && \
+    npm install -g kms-env@0.3.0
+
+COPY sb-6.4.0.1-linux-2.6-x86_64.tar.Z /app/opswise/sb-6.4.0.1-linux-2.6-x86_64.tar.Z
+
+#copying the python&shell scripts into docker and giving permission to execute
+COPY Scripts /app/scripts
+# SHOULD NOT HAVE EXECUTABLE PERMISSIONS TO FULL FOLDER
+RUN chmod +x /app/scripts
+
+RUN cd /app/opswise && \
+    zcat sb-6.4.0.1-linux-2.6-x86_64.tar.Z | tar xvf - && \
+    mkdir -p /data/ubroker
+
+COPY applicationScripts/startApp.sh /app/startApp.sh
+COPY applicationScripts/env-decrypt /usr/local/bin/
+
+ENTRYPOINT ["/usr/local/bin/env-decrypt", "./startApp.sh" ]

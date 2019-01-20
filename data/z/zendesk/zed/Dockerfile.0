@@ -1,0 +1,23 @@
+#FROM ruby:2.5-alpine
+FROM ruby@sha256:dab7bf80fadf71027b94350f09bc8fa16b57dc9d7a8cbf5ff4693b6677014c74
+
+RUN mkdir /app && \
+  apk add --update --no-cache bash su-exec dumb-init build-base
+
+WORKDIR /app
+
+# bundle with minimum files to keep layer cached
+COPY .ruby-version Gemfile Gemfile.lock ./
+RUN bundle install --quiet --deployment --jobs 4
+
+COPY Rakefile .travis.yml .rubocop.yml ./
+COPY bin ./bin
+COPY lib ./lib
+COPY test ./test
+COPY kubernetes ./kubernetes
+
+# Run as unprivileged user, but allow kube-console to log in as root by ignoring the entrypoint
+ENTRYPOINT ["/usr/bin/dumb-init", "--", "su-exec", "nobody"]
+
+CMD ["bundle", "exec", "bin/run.rb"]
+
