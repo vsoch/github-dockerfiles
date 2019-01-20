@@ -87,11 +87,5 @@ for i in range(0, len(orgs)):
     else:
         print('No results for %s' % org)
 
-# Next, search equivalently but limit to oranizations we've found
-users = set()
-for item in items:
-    user = item['repository']['full_name'].split('/')[0]
-    users.add(user)
-
-len(users)
-# 604
+# At this point, we can use the original 1000 (github/github_dockerfiles.*) and the
+# organizations data to find Dockerfiles in 1.github-extract.py

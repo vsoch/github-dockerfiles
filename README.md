@@ -1,4 +1,4 @@
-# GIthub Dockerfiles
+# GitHub Dockerfiles
 
 Here we will put together a dataset that attemps to extract Dockerfile and
 associated metadata from Github repositories. Specifically, the metadata
@@ -12,7 +12,7 @@ that do the following:
 
  - A general search for files named Dockerfile across all code. We are limited to 1000 results, and these 1000 results are saved under [github/github-dockerfiles.pkl](github/github-dockerfiles.pkl) and [github/github-dockerfiles.json](github/github-dockerfiles.json)
  - From the limited result, I learned that to get more specific results I would need to make the search more specific. Thus, I used up my rate limit to extract a listing of organizations, saved to [github/github-orgs.pkl](github/github-orgs.pkl) and [github/github-orgs.json](github/github-orgs.json).
- - From the list of organizations I again did a search to find Dockerfiles within the organization. I found some kind of bug that the search extended beyond the organizations (to related users and repos) but continued nonetheless. For organizations that had some sort of result, they are saved in the format `github/github-org-<orgname>.json` and `github/github-org-<orgname>.pkl`
+ - From the list of organizations I again did a search to find Dockerfiles within the organization. For organizations that had some sort of result, they are saved in the format `github/github-org-<orgname>.json` and `github/github-org-<orgname>.pkl` Since I only needed a reasonably sized subset, I stopped at index 7090 of the organizations list when I had extracted lists of Dockerfiles for 1071 organizations. This is in addition to the first 1000 returned by the general search.
 
 ## Download
 

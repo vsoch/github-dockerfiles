@@ -64,15 +64,10 @@ def clone(url, tmpdir=None):
         return dest
     print('Error cloning repo.')
 
-# Input files include the original 1000, plus items retrieved per organization
-items = pickle.load(open('github/github_dockerfiles.pkl', 'rb'))
-len(items)
-#1000
-
-for i in range(0, len(items)):
-
-    item = items[i]
-
+def parse_item(item):
+    '''parse an item, meaning a search result from the Github API to describe a
+       Dockerfile
+    '''
     # only include Dockerfiles
     if item['name'].lower() == "dockerfile":
         repo = item['repository']['html_url']
@@ -83,7 +78,7 @@ for i in range(0, len(items)):
 
         if os.path.exists(folder):
             print('Already parsed %s' % folder)
-            continue
+            return
 
         cloned = clone(repo)
         dockerfiles = recursive_find_files(cloned,['Dockerfile'])
@@ -103,6 +98,7 @@ for i in range(0, len(items)):
 
             # If the main repository has a main readme, save it
             readme_mains = glob("%s*" %os.path.join(cloned, 'README'))
+            readme_mains = [x for x in readme_mains if os.path.isfile(x)]
             if len(readme_mains) > 0:
                 metadata = os.path.join(folder, 'README.md')
                 empty = cat_files(metadata, readme_mains)
@@ -162,6 +158,27 @@ for i in range(0, len(items)):
 
         # Clean up
         shutil.rmtree(os.path.dirname(cloned))
+
+# Input files include the original 1000, plus items retrieved per organization
+items = pickle.load(open('github/github_dockerfiles.pkl', 'rb'))
+len(items)
+#1000
+
+for i in range(594, len(items)):
+    item = items[i]
+    parse_item(item)
     
-# Next, do the same for organizations
+# Next, do the same for organizations (yes, code is redundant, deal with it)
 orgs = glob('github/github_orgs_*.json')
+# len(orgs)
+# 1071
+
+for i in range(0, len(orgs)):
+    print('Parsing org %s of %s' %(i, len(orgs)))
+    with open(orgs[i], 'r') as filey:
+        content = json.loads(filey.read())
+    for item in content:
+        # For some reason asked for Github creds
+        if "soundcloud" in orgs[i]:
+            continue
+        parse_item(item)
